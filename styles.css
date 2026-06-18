@@ -610,7 +610,7 @@ h3 {
   .home-page .intro-section,
   .home-page .preview-section,
   .home-page .site-footer {
-    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cfilter id='s' x='-50%25' y='-50%25' width='200%25' height='200%25'%3E%3CfeDropShadow dx='1' dy='1' stdDeviation='0.8' flood-color='%2314161a' flood-opacity='0.28'/%3E%3C/filter%3E%3Ctext x='12' y='18' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='%23ffd400' filter='url(%23s)'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E") 12 12, auto;
+    cursor: url("assets/cursors/star-cursor.svg") 12 12, auto;
   }
 
   .home-hero,

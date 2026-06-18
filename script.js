@@ -49,7 +49,7 @@ function setupHomeHeader() {
 }
 
 async function fetchWorks() {
-  const response = await fetch("data/works.json?v=20260618-beach-items-title-align", {
+  const response = await fetch("data/works.json?v=20260619-star-cursor-deploy-fix", {
     cache: "no-store"
   });
 

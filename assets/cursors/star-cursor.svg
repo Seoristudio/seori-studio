@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="1" dy="1" stdDeviation="0.8" flood-color="#14161a" flood-opacity="0.28"/>
+  </filter>
+  <text x="12" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#ffd400" filter="url(#shadow)">&#10022;</text>
+</svg>
