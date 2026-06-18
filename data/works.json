@@ -1,0 +1,338 @@
+[
+  {
+    "id": "beach-items",
+    "title": "Beach Items",
+    "description": "Beach item still lifes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/beach-items/beach-items-01.png",
+      "title": "Beach Items",
+      "alt": "Pointillist surfboard standing on a sparkling beach with shells and a blue sea."
+    },
+    "images": [
+      {
+        "path": "assets/images/beach-items/beach-items-01.png",
+        "title": "Beach Items #1, 2026",
+        "alt": "Pointillist surfboard standing on a sparkling beach with shells and a blue sea."
+      },
+      {
+        "path": "assets/images/beach-items/beach-items-02.png",
+        "title": "Beach Items #2, 2026",
+        "alt": "Two beach umbrellas, shells, lemons, and a glittering shoreline under a blue sky."
+      },
+      {
+        "path": "assets/images/beach-items/beach-items-03.png",
+        "title": "Beach Items #3, 2026",
+        "alt": "Lemonade glass with lemon slice on a beach towel by the sea."
+      },
+      {
+        "path": "assets/images/beach-items/beach-items-04.png",
+        "title": "Beach Items #4, 2026",
+        "alt": "Lemon-patterned sunglasses on a pink beach towel with shells and sparkling water."
+      },
+      {
+        "path": "assets/images/beach-items/beach-items-05.png",
+        "title": "Beach Items #5, 2026",
+        "alt": "Floral beach ball resting on glittering sand beside flowers and the sea."
+      },
+      {
+        "path": "assets/images/beach-items/beach-items-06.png",
+        "title": "Beach Items #6, 2026",
+        "alt": "Overhead view of patterned beach umbrellas, shells, lemons, and blue water."
+      }
+    ]
+  },
+  {
+    "id": "copenhagen-pale-blue-summer-rituals",
+    "title": "Copenhagen — Pale Blue Summer Rituals",
+    "description": "Copenhagen scenes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/selected/copenhagen-bike.png",
+      "title": "Copenhagen — Pale Blue Summer Rituals",
+      "alt": "Blonde woman in sunglasses riding a pale blue bicycle with flowers through a colorful Copenhagen street."
+    },
+    "images": [
+      {
+        "path": "assets/images/selected/copenhagen-bike.png",
+        "title": "Copenhagen #1, 2026",
+        "alt": "Blonde woman in sunglasses riding a pale blue bicycle with flowers through a colorful Copenhagen street."
+      },
+      {
+        "path": "assets/images/copenhagen-pale-blue-summer-rituals/copenhagen-02.png",
+        "title": "Copenhagen #2, 2026",
+        "alt": "Sparkling glass, red currants, bread, and flowers on a blue patterned table."
+      },
+      {
+        "path": "assets/images/copenhagen-pale-blue-summer-rituals/copenhagen-03.png",
+        "title": "Copenhagen #3, 2026",
+        "alt": "Blonde woman gazing beside flowers and an open window in a blue room."
+      },
+      {
+        "path": "assets/images/copenhagen-pale-blue-summer-rituals/copenhagen-04.png",
+        "title": "Copenhagen #4, 2026",
+        "alt": "Three friends sharing a picnic near the water beneath a pale blue sky."
+      },
+      {
+        "path": "assets/images/copenhagen-pale-blue-summer-rituals/copenhagen-05.png",
+        "title": "Copenhagen #5, 2026",
+        "alt": "Hand holding a sparkling drink by Copenhagen harbor with colorful facades."
+      },
+      {
+        "path": "assets/images/copenhagen-pale-blue-summer-rituals/copenhagen-06.png",
+        "title": "Copenhagen #6, 2026",
+        "alt": "Low-angle view of a blue dress, flowers, and pastel Copenhagen houses."
+      }
+    ]
+  },
+  {
+    "id": "european-breakfast",
+    "title": "European Breakfast",
+    "description": "European breakfast still lifes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/european-breakfast/european-breakfast-01.png",
+      "title": "European Breakfast",
+      "alt": "Close-up breakfast still life with bread, egg, coffee, and sparkling details."
+    },
+    "images": [
+      {
+        "path": "assets/images/european-breakfast/european-breakfast-01.png",
+        "title": "European Breakfast #1, 2026",
+        "alt": "Close-up breakfast still life with bread, egg, coffee, and sparkling details."
+      },
+      {
+        "path": "assets/images/european-breakfast/european-breakfast-02.png",
+        "title": "European Breakfast #2, 2026",
+        "alt": "Campagne bread on a patterned plate in a bright breakfast scene."
+      },
+      {
+        "path": "assets/images/european-breakfast/european-breakfast-03.png",
+        "title": "European Breakfast #3, 2026",
+        "alt": "Apricot jam and butter arranged in a pointillist breakfast still life."
+      },
+      {
+        "path": "assets/images/european-breakfast/european-breakfast-04.png",
+        "title": "European Breakfast #4, 2026",
+        "alt": "Coffee cup being filled beside breakfast objects and glittering details."
+      },
+      {
+        "path": "assets/images/european-breakfast/european-breakfast-05.png",
+        "title": "European Breakfast #5, 2026",
+        "alt": "Breakfast table with bread, fruit, flowers, and warm light."
+      },
+      {
+        "path": "assets/images/european-breakfast/european-breakfast-06.png",
+        "title": "European Breakfast #6, 2026",
+        "alt": "Wide breakfast table still life with coffee, bread, egg, jam, and flowers."
+      }
+    ]
+  },
+  {
+    "id": "lisbon-orange-light-blue-tiles",
+    "title": "Lisbon — Orange Light, Blue Tiles",
+    "description": "Lisbon scenes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/lisbon-orange-light-blue-tiles/lisbon-01.png",
+      "title": "Lisbon — Orange Light, Blue Tiles",
+      "alt": "Red-haired figure by a blue-tiled window with laundry, ocean light, and golden particles."
+    },
+    "images": [
+      {
+        "path": "assets/images/lisbon-orange-light-blue-tiles/lisbon-01.png",
+        "title": "Lisbon #1, 2026",
+        "alt": "Red-haired figure by a blue-tiled window with laundry, ocean light, and golden particles."
+      },
+      {
+        "path": "assets/images/lisbon-orange-light-blue-tiles/lisbon-02.png",
+        "title": "Lisbon #2, 2026",
+        "alt": "Hands washing tomatoes in a blue tile sink with yellow sparkles."
+      },
+      {
+        "path": "assets/images/lisbon-orange-light-blue-tiles/lisbon-03.png",
+        "title": "Lisbon #3, 2026",
+        "alt": "Orange chair with a pastry and glass beside a sleeping cat in a blue tiled room."
+      },
+      {
+        "path": "assets/images/lisbon-orange-light-blue-tiles/lisbon-04.png",
+        "title": "Lisbon #4, 2026",
+        "alt": "Woman walking uphill through Lisbon streets with blue tiles and warm orange light."
+      },
+      {
+        "path": "assets/images/lisbon-orange-light-blue-tiles/lisbon-05.png",
+        "title": "Lisbon #5, 2026",
+        "alt": "Woman eating ice cream on a tiled promenade beside a dark green sea."
+      },
+      {
+        "path": "assets/images/lisbon-orange-light-blue-tiles/lisbon-06.png",
+        "title": "Lisbon #6, 2026",
+        "alt": "Sardines, bread, and water on a bright Lisbon table with blue tiles and ocean view."
+      }
+    ]
+  },
+  {
+    "id": "popsicles",
+    "title": "Popsicles",
+    "description": "Popsicle still lifes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/popsicles/popsicles-01.png",
+      "title": "Popsicles",
+      "alt": "Berry popsicle with daisies, blueberries, a shell, and a blue sea window."
+    },
+    "images": [
+      {
+        "path": "assets/images/popsicles/popsicles-01.png",
+        "title": "Popsicles #1, 2026",
+        "alt": "Berry popsicle with daisies, blueberries, a shell, and a blue sea window."
+      },
+      {
+        "path": "assets/images/popsicles/popsicles-02.png",
+        "title": "Popsicles #2, 2026",
+        "alt": "Lemon popsicle beneath lemon branches and a bright blue sky."
+      },
+      {
+        "path": "assets/images/popsicles/popsicles-03.png",
+        "title": "Popsicles #3, 2026",
+        "alt": "Mint chocolate popsicle with white flowers, a yellow sun, and colorful sweets."
+      },
+      {
+        "path": "assets/images/popsicles/popsicles-04.png",
+        "title": "Popsicles #4, 2026",
+        "alt": "Pistachio cherry popsicle with red cherries and flowers on a pink table."
+      },
+      {
+        "path": "assets/images/popsicles/popsicles-05.png",
+        "title": "Popsicles #5, 2026",
+        "alt": "Mango popsicle with red poppies and a mango on a pastel table."
+      },
+      {
+        "path": "assets/images/popsicles/popsicles-06.png",
+        "title": "Popsicles #6, 2026",
+        "alt": "Peach popsicle with peach trees, lavender, and fruit on a pale table."
+      }
+    ]
+  },
+  {
+    "id": "aix-en-provence-flea-market-saturday",
+    "title": "Aix-en-Provence — Flea Market Saturday",
+    "description": "Aix-en-Provence market scenes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/aix-en-provence-flea-market-saturday/aix-en-provence-01.png",
+      "title": "Aix-en-Provence — Flea Market Saturday",
+      "alt": "A child resting in a lemon bath beside an open window and flowers."
+    },
+    "images": [
+      {
+        "path": "assets/images/aix-en-provence-flea-market-saturday/aix-en-provence-01.png",
+        "title": "Aix-en-Provence #1, 2026",
+        "alt": "A child resting in a lemon bath beside an open window and flowers."
+      },
+      {
+        "path": "assets/images/aix-en-provence-flea-market-saturday/aix-en-provence-02.png",
+        "title": "Aix-en-Provence #2, 2026",
+        "alt": "A woman in a lemon dress walking through a bright Provençal street."
+      },
+      {
+        "path": "assets/images/aix-en-provence-flea-market-saturday/aix-en-provence-03.png",
+        "title": "Aix-en-Provence #3, 2026",
+        "alt": "A hand selecting fruit from a market crate beneath a blue and gold sky."
+      },
+      {
+        "path": "assets/images/aix-en-provence-flea-market-saturday/aix-en-provence-04.png",
+        "title": "Aix-en-Provence #4, 2026",
+        "alt": "A woman smelling flowers at a bright market stall."
+      },
+      {
+        "path": "assets/images/aix-en-provence-flea-market-saturday/aix-en-provence-05.png",
+        "title": "Aix-en-Provence #5, 2026",
+        "alt": "A cafe table with coffee, lemon water, flowers, and a glowing pointillist sky."
+      },
+      {
+        "path": "assets/images/aix-en-provence-flea-market-saturday/aix-en-provence-06.png",
+        "title": "Aix-en-Provence #6, 2026",
+        "alt": "A table with fruit, flowers, bread, and an open window to a starry sea."
+      }
+    ]
+  },
+  {
+    "id": "cans",
+    "title": "Cans",
+    "description": "Fruit can still lifes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/cans/cans-01.png",
+      "title": "Cans",
+      "alt": "Decorative citrus can with lemon under a blue starry sky."
+    },
+    "images": [
+      {
+        "path": "assets/images/cans/cans-01.png",
+        "title": "Cans #1, 2026",
+        "alt": "Decorative citrus can with lemon under a blue starry sky."
+      },
+      {
+        "path": "assets/images/cans/cans-02.png",
+        "title": "Cans #2, 2026",
+        "alt": "Blue tomato can with a halved tomato on a coral background."
+      },
+      {
+        "path": "assets/images/cans/cans-03.jpeg",
+        "title": "Cans #3, 2026",
+        "alt": "Pink grapefruit can with sliced grapefruit on a green background."
+      },
+      {
+        "path": "assets/images/cans/cans-04.png",
+        "title": "Cans #4, 2026",
+        "alt": "Watermelon can with cactus and fruit on a vivid blue background."
+      },
+      {
+        "path": "assets/images/cans/cans-05.png",
+        "title": "Cans #5, 2026",
+        "alt": "Peach can beside a red apple under a deep blue sky."
+      },
+      {
+        "path": "assets/images/cans/cans-06.jpeg",
+        "title": "Cans #6, 2026",
+        "alt": "Lime can with a halved lime on lavender and pink color fields."
+      }
+    ]
+  },
+  {
+    "id": "boulangerie-hour",
+    "title": "Boulangerie Hour",
+    "description": "Bakery-hour scenes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/boulangerie-hour/boulangerie-hour-01.png",
+      "title": "Boulangerie Hour",
+      "alt": "Pointillist bakery interior with bread shelves, a blue doorway, and a glowing city window."
+    },
+    "images": [
+      {
+        "path": "assets/images/boulangerie-hour/boulangerie-hour-01.png",
+        "title": "Boulangerie Hour #1, 2026",
+        "alt": "Pointillist bakery interior with bread shelves, a blue doorway, and a glowing city window."
+      },
+      {
+        "path": "assets/images/boulangerie-hour/boulangerie-hour-02.png",
+        "title": "Boulangerie Hour #2, 2026",
+        "alt": "Pointillist woman holding a baguette bag beside a dog in a colorful city doorway."
+      },
+      {
+        "path": "assets/images/boulangerie-hour/boulangerie-hour-03.png",
+        "title": "Boulangerie Hour #3, 2026",
+        "alt": "Pointillist croissant, coffee, and yellow flowers on a patterned breakfast table."
+      },
+      {
+        "path": "assets/images/boulangerie-hour/boulangerie-hour-04.png",
+        "title": "Boulangerie Hour #4, 2026",
+        "alt": "Pointillist dog, baguette bag, and blue trousers in a sparkling city street scene."
+      },
+      {
+        "path": "assets/images/boulangerie-hour/boulangerie-hour-05.png",
+        "title": "Boulangerie Hour #5, 2026",
+        "alt": "Pointillist woman entering a glowing bakery beneath large golden stars."
+      },
+      {
+        "path": "assets/images/boulangerie-hour/boulangerie-hour-06.png",
+        "title": "Boulangerie Hour #6, 2026",
+        "alt": "Pointillist still life with open book, bread bag, glasses, and golden stars."
+      }
+    ]
+  }
+]
