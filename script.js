@@ -48,8 +48,37 @@ function setupHomeHeader() {
   window.addEventListener("resize", updateHeaderState);
 }
 
+function setupHeroDepth() {
+  const hero = document.querySelector(".home-hero");
+  const artwork = hero?.querySelector(".hero-artwork");
+
+  if (!hero || !artwork || reduceMotion || !window.matchMedia("(max-width: 560px)").matches) {
+    return;
+  }
+
+  function setDepth(x = 0, y = 0) {
+    artwork.style.setProperty("--hero-depth-x", `${x.toFixed(2)}px`);
+    artwork.style.setProperty("--hero-depth-y", `${y.toFixed(2)}px`);
+    artwork.style.setProperty("--star-depth-x", `${x.toFixed(2)}px`);
+    artwork.style.setProperty("--star-depth-y", `${y.toFixed(2)}px`);
+  }
+
+  hero.addEventListener("pointermove", (event) => {
+    const rect = hero.getBoundingClientRect();
+    const x = ((event.clientX - rect.left) / rect.width - 0.5) * 14;
+    const y = ((event.clientY - rect.top) / rect.height - 0.5) * 10;
+    setDepth(x, y);
+  }, { passive: true });
+
+  window.addEventListener("scroll", () => {
+    const rect = hero.getBoundingClientRect();
+    const progress = Math.max(-1, Math.min(1, -rect.top / Math.max(rect.height, 1)));
+    setDepth(0, progress * 15);
+  }, { passive: true });
+}
+
 async function fetchWorks() {
-  const response = await fetch("data/works.json?v=20260619-star-cursor-deploy-fix", {
+  const response = await fetch("data/works.json?v=20260621-star-centers-v6", {
     cache: "no-store"
   });
 
@@ -238,13 +267,19 @@ function renderWorksHeading(activeCategory) {
   }
 
   worksHeading.replaceChildren();
+  worksHeading.classList.toggle("is-detail", Boolean(activeCategory));
 
   if (activeCategory) {
-    const seriesLink = document.createElement("a");
-    seriesLink.className = "section-kicker collection-series-link";
-    seriesLink.href = "works.html";
-    seriesLink.textContent = toDisplayTitle(activeCategory.title);
-    worksHeading.append(seriesLink);
+    const label = document.createElement("a");
+    label.className = "section-kicker collection-series-link";
+    label.href = "works.html";
+    label.textContent = "Works";
+
+    const title = document.createElement("h1");
+    title.id = "works-title";
+    title.textContent = toDisplayTitle(activeCategory.title);
+
+    worksHeading.append(label, title);
     return;
   }
 
@@ -268,10 +303,12 @@ function randomizeStars() {
     return;
   }
 
+  const isMobile = window.matchMedia("(max-width: 560px)").matches;
+
   document.querySelectorAll(".twinkle-star").forEach((star) => {
-    const duration = 1.65 + Math.random() * 1.95;
-    const low = 0.1 + Math.random() * 0.14;
-    const mid = 0.38 + Math.random() * 0.26;
+    const duration = isMobile ? 1.25 + Math.random() * 1.45 : 1.65 + Math.random() * 1.95;
+    const low = isMobile ? 0.26 + Math.random() * 0.14 : 0.1 + Math.random() * 0.14;
+    const mid = isMobile ? 0.56 + Math.random() * 0.24 : 0.38 + Math.random() * 0.26;
     const high = 0.86 + Math.random() * 0.14;
 
     star.style.setProperty("--d", `${duration.toFixed(2)}s`);
@@ -291,6 +328,17 @@ function setupReveal() {
     ? [...document.querySelectorAll(".biography-section > .section-kicker, .biography-group")]
     : [];
   const delayedBioSet = new Set(delayedBioItems);
+  const initialMobileWorksItems = new Set();
+
+  if (window.matchMedia("(max-width: 560px)").matches) {
+    [...document.querySelectorAll(".collection-grid .collection-card")].slice(0, 4).forEach((card) => {
+      card.querySelectorAll("[data-reveal]").forEach((item) => {
+        initialMobileWorksItems.add(item);
+        item.style.setProperty("--reveal-delay", "0ms");
+        item.classList.add("is-visible");
+      });
+    });
+  }
 
   uniqueItems.forEach((item, index) => {
     item.dataset.reveal = "";
@@ -348,7 +396,7 @@ function setupReveal() {
   );
 
   uniqueItems.forEach((item) => {
-    if (!aboutScrollStepSet.has(item) && !delayedBioSet.has(item)) {
+    if (!aboutScrollStepSet.has(item) && !delayedBioSet.has(item) && !initialMobileWorksItems.has(item)) {
       observer.observe(item);
     }
   });
@@ -936,6 +984,7 @@ function setupSparkleCursor() {
 
 randomizeStars();
 setupHomeHeader();
+setupHeroDepth();
 setupAboutCarousel();
 setupSparkleCursor();
 setupImageLightbox();
