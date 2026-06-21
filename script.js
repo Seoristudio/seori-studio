@@ -78,7 +78,7 @@ function setupHeroDepth() {
 }
 
 async function fetchWorks() {
-  const response = await fetch("data/works.json?v=20260621-star-centers-v6", {
+  const response = await fetch("data/works.json?v=20260621-star-pair-v7", {
     cache: "no-store"
   });
 
