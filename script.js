@@ -78,7 +78,7 @@ function setupHeroDepth() {
 }
 
 async function fetchWorks() {
-  const response = await fetch("data/works.json?v=20260621-star-pair-v7", {
+  const response = await fetch("data/works.json?v=20260622-footer-nav-v3", {
     cache: "no-store"
   });
 
@@ -271,8 +271,9 @@ function renderWorksHeading(activeCategory) {
 
   if (activeCategory) {
     const label = document.createElement("a");
-    label.className = "section-kicker collection-series-link";
+    label.className = "section-kicker collection-series-link collection-back";
     label.href = "works.html";
+    label.setAttribute("aria-label", "Back to all works");
     label.textContent = "Works";
 
     const title = document.createElement("h1");

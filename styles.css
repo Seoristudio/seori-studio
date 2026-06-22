@@ -38,7 +38,7 @@ body.menu-open {
 }
 
 body.about-page-body {
-  background: #dae6f5;
+  background: #f4f7fa;
 }
 
 body.sparkle-cursor-active a,
@@ -532,6 +532,7 @@ h3 {
 .about-page-body .page-main {
   padding-top: clamp(50px, 7vw, 98px);
   padding-bottom: 0;
+  background: #dae6f5;
 }
 
 .section-heading,
@@ -1089,11 +1090,28 @@ h3 {
 }
 
 .collection-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   justify-self: start;
   color: var(--muted);
   font-size: 13px;
   font-weight: 300;
   line-height: 1;
+}
+
+.collection-back::before {
+  width: 7px;
+  height: 7px;
+  border-bottom: 1px solid currentColor;
+  border-left: 1px solid currentColor;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.collection-back:hover {
+  color: var(--ink);
+  transform: translateX(-2px);
 }
 
 .collection-detail-title {
@@ -1155,6 +1173,10 @@ h3 {
   background: #f4f7fa;
 }
 
+.about-page-body .site-footer {
+  background: #f4f7fa;
+}
+
 .floating-instagram {
   position: fixed;
   right: clamp(18px, 2.5vw, 38px);
@@ -1181,14 +1203,11 @@ h3 {
   box-shadow: 0 12px 24px rgba(28, 32, 38, 0.2), 0 3px 7px rgba(28, 32, 38, 0.08);
 }
 
-.floating-instagram svg {
-  width: 28px;
-  height: 28px;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.15;
+.floating-instagram img {
+  display: block;
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
 }
 
 @keyframes floating-instagram-in {
@@ -1200,17 +1219,43 @@ h3 {
 
 @media (min-width: 861px) {
   .site-header .nav-links > a {
+    position: relative;
+    padding-bottom: 5px;
     font-size: 15.6px;
   }
 
-  .site-header .nav-links > .icon-link {
-    width: 29px;
-    height: 29px;
+  .site-header .nav-links > a::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    background: currentColor;
+    content: "";
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 180ms ease;
   }
 
-  .site-header .nav-links > .icon-link svg {
-    width: 22px;
-    height: 22px;
+  .site-header .nav-links > a[aria-current="page"] {
+    transform: translateY(-4px);
+  }
+
+  .site-header .nav-links > a:hover::after,
+  .site-header .nav-links > a[aria-current="page"]::after {
+    transform: scaleX(1);
+  }
+
+  .site-header .nav-links:has(> a:hover) > a[aria-current="page"]:not(:hover) {
+    transform: translateY(0);
+  }
+
+  .site-header .nav-links:has(> a:hover) > a[aria-current="page"]:not(:hover)::after {
+    transform: scaleX(0);
+  }
+
+  .about-copy {
+    align-self: center;
   }
 }
 
@@ -1237,7 +1282,7 @@ h3 {
   background-image: url("assets/images/work-footer/sea-flower-footer.png");
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto 114.3%;
   color: #000000;
 }
 
@@ -1250,8 +1295,8 @@ h3 {
   height: 38%;
   background: linear-gradient(
     to top,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(255, 255, 255, 0.22) 52%,
+    rgba(255, 255, 255, 0.68) 0%,
+    rgba(255, 255, 255, 0.3) 52%,
     rgba(255, 255, 255, 0) 100%
   );
   content: "";
@@ -1281,6 +1326,12 @@ h3 {
 .motion-ready [data-reveal].is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.motion-ready .about-page-body .site-footer[data-reveal] {
+  opacity: 1;
+  transform: none;
+  transition: none;
 }
 
 .about-copy [data-about-step] {
@@ -1611,7 +1662,7 @@ h3 {
     justify-self: center;
     width: auto;
     padding-bottom: 6px;
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
   }
 
   .mobile-menu-panel .mobile-menu-links a[aria-current="page"] {
@@ -1929,6 +1980,11 @@ h3 {
     padding-bottom: 40px;
   }
 
+  .home-page .site-footer,
+  .about-page-body .site-footer {
+    padding-bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+  }
+
   .floating-instagram {
     right: 18px;
     bottom: calc(18px + env(safe-area-inset-bottom, 0px));
@@ -1966,7 +2022,16 @@ h3 {
   }
 
   .works-page-body .site-footer::before {
-    display: none;
+    display: block;
+    top: 0;
+    bottom: auto;
+    height: 40%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.16) 52%,
+      rgba(0, 0, 0, 0) 100%
+    );
   }
 
   .works-page-body .site-footer a,
