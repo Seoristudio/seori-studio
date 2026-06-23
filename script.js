@@ -684,7 +684,8 @@ function setupImageLightbox() {
   }
 
   document.addEventListener("click", (event) => {
-    const image = event.target.closest("[data-lightbox-image]");
+    const detailCard = event.target.closest(".collection-image-grid .work-card");
+    const image = event.target.closest("[data-lightbox-image]") || detailCard?.querySelector("[data-lightbox-image]");
 
     if (image) {
       if (window.matchMedia("(max-width: 560px)").matches && image.closest("[data-home-preview]")) {
