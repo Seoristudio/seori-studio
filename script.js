@@ -78,7 +78,7 @@ function setupHeroDepth() {
 }
 
 async function fetchWorks() {
-  const response = await fetch("data/works.json?v=20260622-footer-nav-v3", {
+  const response = await fetch("data/works.json?v=20260626-weekly-works-order-fix", {
     cache: "no-store"
   });
 

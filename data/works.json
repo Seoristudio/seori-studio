@@ -1,5 +1,183 @@
 [
   {
+    "id": "starfish-collection",
+    "title": "Starfish Collection",
+    "description": "Starfish works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/starfish-collection/starfish-collection-01.png",
+      "title": "Starfish Collection",
+      "alt": "Starfish Collection cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/starfish-collection/starfish-collection-01.png",
+        "title": "Starfish Collection #1, 2026",
+        "alt": "Starfish Collection artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/starfish-collection/starfish-collection-02.png",
+        "title": "Starfish Collection #2, 2026",
+        "alt": "Starfish Collection artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/starfish-collection/starfish-collection-03.png",
+        "title": "Starfish Collection #3, 2026",
+        "alt": "Starfish Collection artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/starfish-collection/starfish-collection-04.png",
+        "title": "Starfish Collection #4, 2026",
+        "alt": "Starfish Collection artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/starfish-collection/starfish-collection-05.png",
+        "title": "Starfish Collection #5, 2026",
+        "alt": "Starfish Collection artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/starfish-collection/starfish-collection-06.png",
+        "title": "Starfish Collection #6, 2026",
+        "alt": "Starfish Collection artwork 6 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/starfish-collection/starfish-collection-07.png",
+        "title": "Starfish Collection #7, 2026",
+        "alt": "Starfish Collection artwork 7 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "formentera-where-the-sea-keeps-the-day-cool",
+    "title": "Formentera — Where the Sea Keeps the Day Cool",
+    "description": "Formentera scenes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/formentera-where-the-sea-keeps-the-day-cool/formentera-01.png",
+      "title": "Formentera — Where the Sea Keeps the Day Cool",
+      "alt": "Formentera — Where the Sea Keeps the Day Cool cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/formentera-where-the-sea-keeps-the-day-cool/formentera-01.png",
+        "title": "Formentera #1, 2026",
+        "alt": "Formentera — Where the Sea Keeps the Day Cool artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/formentera-where-the-sea-keeps-the-day-cool/formentera-02.png",
+        "title": "Formentera #2, 2026",
+        "alt": "Formentera — Where the Sea Keeps the Day Cool artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/formentera-where-the-sea-keeps-the-day-cool/formentera-03.png",
+        "title": "Formentera #3, 2026",
+        "alt": "Formentera — Where the Sea Keeps the Day Cool artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/formentera-where-the-sea-keeps-the-day-cool/formentera-04.png",
+        "title": "Formentera #4, 2026",
+        "alt": "Formentera — Where the Sea Keeps the Day Cool artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/formentera-where-the-sea-keeps-the-day-cool/formentera-05.png",
+        "title": "Formentera #5, 2026",
+        "alt": "Formentera — Where the Sea Keeps the Day Cool artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/formentera-where-the-sea-keeps-the-day-cool/formentera-06.png",
+        "title": "Formentera #6, 2026",
+        "alt": "Formentera — Where the Sea Keeps the Day Cool artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "bikinies",
+    "title": "Bikinies",
+    "description": "Bikinies works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/bikinies/bikinies-01.png",
+      "title": "Bikinies",
+      "alt": "Bikinies cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/bikinies/bikinies-01.png",
+        "title": "Bikinies #1, 2026",
+        "alt": "Bikinies artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bikinies/bikinies-02.png",
+        "title": "Bikinies #2, 2026",
+        "alt": "Bikinies artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bikinies/bikinies-03.png",
+        "title": "Bikinies #3, 2026",
+        "alt": "Bikinies artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bikinies/bikinies-04.png",
+        "title": "Bikinies #4, 2026",
+        "alt": "Bikinies artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bikinies/bikinies-05.png",
+        "title": "Bikinies #5, 2026",
+        "alt": "Bikinies artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bikinies/bikinies-06.png",
+        "title": "Bikinies #6, 2026",
+        "alt": "Bikinies artwork 6 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bikinies/bikinies-07.png",
+        "title": "Bikinies #7, 2026",
+        "alt": "Bikinies artwork 7 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "lucca-the-slow-yellow-afternoon",
+    "title": "Lucca — The Slow Yellow Afternoon",
+    "description": "Lucca scenes from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/lucca-the-slow-yellow-afternoon/lucca-01.png",
+      "title": "Lucca — The Slow Yellow Afternoon",
+      "alt": "Lucca — The Slow Yellow Afternoon cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/lucca-the-slow-yellow-afternoon/lucca-01.png",
+        "title": "Lucca #1, 2026",
+        "alt": "Lucca — The Slow Yellow Afternoon artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/lucca-the-slow-yellow-afternoon/lucca-02.png",
+        "title": "Lucca #2, 2026",
+        "alt": "Lucca — The Slow Yellow Afternoon artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/lucca-the-slow-yellow-afternoon/lucca-03.png",
+        "title": "Lucca #3, 2026",
+        "alt": "Lucca — The Slow Yellow Afternoon artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/lucca-the-slow-yellow-afternoon/lucca-04.png",
+        "title": "Lucca #4, 2026",
+        "alt": "Lucca — The Slow Yellow Afternoon artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/lucca-the-slow-yellow-afternoon/lucca-05.png",
+        "title": "Lucca #5, 2026",
+        "alt": "Lucca — The Slow Yellow Afternoon artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/lucca-the-slow-yellow-afternoon/lucca-06.png",
+        "title": "Lucca #6, 2026",
+        "alt": "Lucca — The Slow Yellow Afternoon artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "beach-items",
     "title": "Beach Items",
     "description": "Beach item still lifes from the Confetti Life project.",
