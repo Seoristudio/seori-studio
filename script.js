@@ -78,7 +78,7 @@ function setupHeroDepth() {
 }
 
 async function fetchWorks() {
-  const response = await fetch("data/works.json?v=20260626-weekly-works-order-fix", {
+  const response = await fetch("data/works.json?v=20260704-weekly-works-auto", {
     cache: "no-store"
   });
 
@@ -106,29 +106,8 @@ function scrollPageToTop() {
 
 function toDisplayTitle(value = "") {
   return value
-    .split(" — ")
-    .map((segment) =>
-      segment.replace(/[A-Za-z][A-Za-z'-]*/g, (word) => {
-        const lowerWord = word.toLowerCase();
-
-        if (lowerWord === "ai") {
-          return "AI";
-        }
-
-        if (lowerWord === "en") {
-          return "en";
-        }
-
-        if (word === word.toUpperCase() && word.length <= 3) {
-          return word;
-        }
-
-        return word
-          .toLowerCase()
-          .replace(/(^|[-'])\p{L}/gu, (match) => match.toUpperCase());
-      })
-    )
-    .join(" — ")
+    .normalize("NFC")
+    .replace(/\bai\b/gi, "AI")
     .replace(/\bAix-En-Provence\b/g, "Aix-en-Provence");
 }
 

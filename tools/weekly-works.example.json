@@ -1,0 +1,30 @@
+{
+  "year": 2026,
+  "displayOrder": "normal",
+  "items": [
+    {
+      "title": "Lucca — The slow yellow afternoon",
+      "zip": "/Users/jamielee/Downloads/AI artwork by me/Confetti life_Lucca, The slow yellow afternoon.zip",
+      "shortTitle": "Lucca",
+      "prefix": "lucca"
+    },
+    {
+      "title": "bikinies",
+      "zip": "/Users/jamielee/Downloads/AI artwork by me/bikinies.zip",
+      "shortTitle": "Bikinies",
+      "prefix": "bikinies"
+    },
+    {
+      "title": "Formentera — Where the Sea Keeps the Day Cool",
+      "zip": "/Users/jamielee/Downloads/AI artwork by me/Formentera.zip",
+      "shortTitle": "Formentera",
+      "prefix": "formentera"
+    },
+    {
+      "title": "Starfish collection",
+      "zip": "/Users/jamielee/Downloads/AI artwork by me/Starfish collection.zip",
+      "shortTitle": "Starfish Collection",
+      "prefix": "starfish-collection"
+    }
+  ]
+}

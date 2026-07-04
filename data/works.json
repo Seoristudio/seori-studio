@@ -1,5 +1,173 @@
 [
   {
+    "id": "cesky-krumlov-along-schieles-blue-river",
+    "title": "Český Krumlov, Along Schiele’s Blue River",
+    "description": "Český Krumlov works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-01.png",
+      "title": "Český Krumlov, Along Schiele’s Blue River",
+      "alt": "Český Krumlov, Along Schiele’s Blue River cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-01.png",
+        "title": "Český Krumlov #1, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-02.png",
+        "title": "Český Krumlov #2, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-03.png",
+        "title": "Český Krumlov #3, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-04.png",
+        "title": "Český Krumlov #4, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-05.jpg",
+        "title": "Český Krumlov #5, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-06.png",
+        "title": "Český Krumlov #6, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "gardening",
+    "title": "Gardening",
+    "description": "Gardening works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/gardening/gardening-01.png",
+      "title": "Gardening",
+      "alt": "Gardening cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/gardening/gardening-01.png",
+        "title": "Gardening #1, 2026",
+        "alt": "Gardening artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/gardening/gardening-02.png",
+        "title": "Gardening #2, 2026",
+        "alt": "Gardening artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/gardening/gardening-03.png",
+        "title": "Gardening #3, 2026",
+        "alt": "Gardening artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/gardening/gardening-04.png",
+        "title": "Gardening #4, 2026",
+        "alt": "Gardening artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/gardening/gardening-05.png",
+        "title": "Gardening #5, 2026",
+        "alt": "Gardening artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/gardening/gardening-06.png",
+        "title": "Gardening #6, 2026",
+        "alt": "Gardening artwork 6 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/gardening/gardening-07.png",
+        "title": "Gardening #7, 2026",
+        "alt": "Gardening artwork 7 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "bergen-after-the-rain",
+    "title": "Bergen, After the Rain",
+    "description": "Bergen works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/bergen-after-the-rain/bergen-01.png",
+      "title": "Bergen, After the Rain",
+      "alt": "Bergen, After the Rain cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/bergen-after-the-rain/bergen-01.png",
+        "title": "Bergen #1, 2026",
+        "alt": "Bergen, After the Rain artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bergen-after-the-rain/bergen-02.png",
+        "title": "Bergen #2, 2026",
+        "alt": "Bergen, After the Rain artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bergen-after-the-rain/bergen-03.png",
+        "title": "Bergen #3, 2026",
+        "alt": "Bergen, After the Rain artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bergen-after-the-rain/bergen-04.png",
+        "title": "Bergen #4, 2026",
+        "alt": "Bergen, After the Rain artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bergen-after-the-rain/bergen-05.png",
+        "title": "Bergen #5, 2026",
+        "alt": "Bergen, After the Rain artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/bergen-after-the-rain/bergen-06.png",
+        "title": "Bergen #6, 2026",
+        "alt": "Bergen, After the Rain artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "tubes",
+    "title": "Tubes",
+    "description": "Tubes works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/tubes/tubes-01.png",
+      "title": "Tubes",
+      "alt": "Tubes cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/tubes/tubes-01.png",
+        "title": "Tubes #1, 2026",
+        "alt": "Tubes artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tubes/tubes-02.png",
+        "title": "Tubes #2, 2026",
+        "alt": "Tubes artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tubes/tubes-03.png",
+        "title": "Tubes #3, 2026",
+        "alt": "Tubes artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tubes/tubes-04.png",
+        "title": "Tubes #4, 2026",
+        "alt": "Tubes artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tubes/tubes-05.png",
+        "title": "Tubes #5, 2026",
+        "alt": "Tubes artwork 5 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "starfish-collection",
     "title": "Starfish Collection",
     "description": "Starfish works from the Confetti Life project.",

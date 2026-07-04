@@ -1,0 +1,34 @@
+{
+  "year": 2026,
+  "displayOrder": "normal",
+  "items": [
+    {
+      "title": "Český Krumlov, Along Schiele’s Blue River",
+      "zip": "/Users/jamielee/Downloads/AI artwork by me/Confetti life_Český Krumlov, Along Schiele’s Blue River/Český Krumlov, Along Schiele’s Blue River.zip",
+      "id": "cesky-krumlov-along-schieles-blue-river",
+      "shortTitle": "Český Krumlov",
+      "prefix": "cesky-krumlov"
+    },
+    {
+      "title": "gardening",
+      "zip": "/Users/jamielee/Downloads/AI artwork by me/Confetti life_gardening/gardening.zip",
+      "id": "gardening",
+      "shortTitle": "Gardening",
+      "prefix": "gardening"
+    },
+    {
+      "title": "Bergen, After the Rain",
+      "zip": "/Users/jamielee/Downloads/AI artwork by me/Confetti life_Bergen, After the Rain/Bergen, After the Rain.zip",
+      "id": "bergen-after-the-rain",
+      "shortTitle": "Bergen",
+      "prefix": "bergen"
+    },
+    {
+      "title": "tubes",
+      "zip": "/Users/jamielee/Downloads/AI artwork by me/Confetti life_tubes/tubes.zip",
+      "id": "tubes",
+      "shortTitle": "Tubes",
+      "prefix": "tubes"
+    }
+  ]
+}

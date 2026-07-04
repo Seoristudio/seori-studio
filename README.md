@@ -34,34 +34,54 @@ data/works.json
 assets/images/
 ```
 
-## Add new images
+## Update weekly Works
 
-Place image files in one of these folders:
+Use the semi-automatic updater when adding one weekly row of Works collections.
+The script uses ZIP files, keeps each collection detail page in image order
+`1, 2, 3...`, and uses image `1` as the collection cover.
 
-```text
-assets/images/hero/
-assets/images/city/
-assets/images/still-life/
+Start from the example manifest:
+
+```bash
+cp tools/weekly-works.example.json tools/weekly-works.json
 ```
 
-Then edit `data/works.json` and add an item to the matching `images` array:
+Edit `tools/weekly-works.json` and replace the four `zip` paths with the new
+weekly ZIP files. Add the items in the exact homepage display order:
+item 1 appears at the left as the newest work, followed by items 2, 3, and 4.
+Keep `"displayOrder": "normal"` for this workflow.
 
-```json
-{
-  "path": "assets/images/city/new-image.png",
-  "title": "New Image Title",
-  "alt": "Short meaningful description of the artwork."
-}
+Preview the changes without writing files:
+
+```bash
+python3 tools/update_weekly_works.py tools/weekly-works.json
 ```
 
-## Update weekly images
+When the dry run looks correct, apply the update:
 
-1. Add the new image files to `assets/images/city/` or `assets/images/still-life/`.
-2. Add or remove image entries in `data/works.json`.
-3. Keep alt text specific and descriptive.
-4. Replace `assets/images/hero/confetti-life-hero.png` when the hero image changes.
+```bash
+python3 tools/update_weekly_works.py tools/weekly-works.json --apply
+```
 
-The Home works preview and the Works page both read from `data/works.json`.
+The updater will:
+
+- copy original images into `assets/images/<collection-id>/`
+- create thumbnail JPGs in `assets/images/thumbs/<collection-id>/`
+- prepend the new collections to `data/works.json`
+- bump the Works JSON cache key in `script.js`
+- title-case collection names, for example `Lucca — The slow yellow afternoon`
+  becomes `Lucca — The Slow Yellow Afternoon`
+
+Then preview locally:
+
+```bash
+python3 -m http.server 8080
+```
+
+Open `http://localhost:8080`, review the site, then publish only after the
+preview is approved.
+
+The Home selected works and the Works page both read from `data/works.json`.
 
 ## Deploy
 
