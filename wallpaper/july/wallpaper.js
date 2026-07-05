@@ -29,10 +29,12 @@ const title = document.querySelector("[data-wallpaper-title]");
 const downloadButton = document.querySelector("[data-download-button]");
 const previousButton = document.querySelector("[data-carousel-prev]");
 const nextButton = document.querySelector("[data-carousel-next]");
+const gestureTarget = document.querySelector(".phone-stage") || track;
 const via = new URLSearchParams(window.location.search).get("via") || "direct";
 let selectedIndex = 0;
-let touchStartX = 0;
-let touchStartY = 0;
+let gestureStartX = 0;
+let gestureStartY = 0;
+let gesturePointerId = null;
 
 function trackEvent(path) {
   if (window.goatcounter && typeof window.goatcounter.count === "function") {
@@ -74,23 +76,56 @@ nextButton.addEventListener("click", () => {
   updateSelection(selectedIndex + 1);
 });
 
-track.addEventListener("touchstart", (event) => {
-  const touch = event.changedTouches[0];
-  touchStartX = touch.clientX;
-  touchStartY = touch.clientY;
-}, { passive: true });
+function beginGesture(clientX, clientY, pointerId = null) {
+  gestureStartX = clientX;
+  gestureStartY = clientY;
+  gesturePointerId = pointerId;
+}
 
-track.addEventListener("touchend", (event) => {
-  const touch = event.changedTouches[0];
-  const deltaX = touch.clientX - touchStartX;
-  const deltaY = touch.clientY - touchStartY;
+function finishGesture(clientX, clientY, pointerId = null) {
+  if (gesturePointerId !== null && pointerId !== null && gesturePointerId !== pointerId) {
+    return;
+  }
 
-  if (Math.abs(deltaX) < 34 || Math.abs(deltaX) < Math.abs(deltaY)) {
+  const deltaX = clientX - gestureStartX;
+  const deltaY = clientY - gestureStartY;
+  gesturePointerId = null;
+
+  if (Math.abs(deltaX) < 28 || Math.abs(deltaX) < Math.abs(deltaY) * 1.15) {
     return;
   }
 
   updateSelection(selectedIndex + (deltaX < 0 ? 1 : -1));
-}, { passive: true });
+}
+
+if (window.PointerEvent) {
+  gestureTarget.addEventListener("pointerdown", (event) => {
+    if (event.button !== undefined && event.button !== 0) {
+      return;
+    }
+
+    beginGesture(event.clientX, event.clientY, event.pointerId);
+    gestureTarget.setPointerCapture?.(event.pointerId);
+  });
+
+  gestureTarget.addEventListener("pointerup", (event) => {
+    finishGesture(event.clientX, event.clientY, event.pointerId);
+  });
+
+  gestureTarget.addEventListener("pointercancel", () => {
+    gesturePointerId = null;
+  });
+} else {
+  gestureTarget.addEventListener("touchstart", (event) => {
+    const touch = event.changedTouches[0];
+    beginGesture(touch.clientX, touch.clientY);
+  }, { passive: true });
+
+  gestureTarget.addEventListener("touchend", (event) => {
+    const touch = event.changedTouches[0];
+    finishGesture(touch.clientX, touch.clientY);
+  }, { passive: true });
+}
 
 downloadButton.addEventListener("click", () => {
   const selected = wallpapers[selectedIndex];
