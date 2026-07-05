@@ -434,6 +434,18 @@
         visibility: visible;
       }
 
+      .wallpaper-slide:first-child {
+        z-index: 1;
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .wallpaper-track.is-ready .wallpaper-slide:first-child:not(.is-active) {
+        z-index: 0;
+        opacity: 0;
+        visibility: hidden;
+      }
+
       .wallpaper-slide img {
         width: 100%;
         height: 100%;
@@ -740,7 +752,7 @@
                   </span>
                 </div>
                 <div class="wallpaper-track" data-wallpaper-track>
-                  <figure class="wallpaper-slide" style="--wallpaper: url('../../assets/wallpapers/2026-07-wallpaper-01.png?v=20260705-final');">
+                  <figure class="wallpaper-slide is-active" aria-hidden="false">
                     <img
                       src="../../assets/wallpapers/2026-07-wallpaper-01.png?v=20260705-final"
                       alt="Wallpaper option 1 preview."
@@ -748,7 +760,7 @@
                       height="3120"
                     >
                   </figure>
-                  <figure class="wallpaper-slide" style="--wallpaper: url('../../assets/wallpapers/2026-07-wallpaper-02.png?v=20260705-final');">
+                  <figure class="wallpaper-slide" aria-hidden="true">
                     <img
                       src="../../assets/wallpapers/2026-07-wallpaper-02.png?v=20260705-final"
                       alt="Wallpaper option 2 preview."
@@ -756,7 +768,7 @@
                       height="3120"
                     >
                   </figure>
-                  <figure class="wallpaper-slide" style="--wallpaper: url('../../assets/wallpapers/2026-07-wallpaper-03.png?v=20260705-final');">
+                  <figure class="wallpaper-slide" aria-hidden="true">
                     <img
                       src="../../assets/wallpapers/2026-07-wallpaper-03.png?v=20260705-final"
                       alt="Wallpaper option 3 preview."

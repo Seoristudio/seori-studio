@@ -98,3 +98,4 @@ downloadButton.addEventListener("click", () => {
 });
 
 updateSelection(0);
+track.classList.add("is-ready");
