@@ -36,6 +36,7 @@ let gestureStartX = 0;
 let gestureStartY = 0;
 let gesturePointerId = null;
 let gestureMoved = false;
+let gestureActive = false;
 let lastTouchGestureAt = 0;
 
 function trackEvent(path) {
@@ -78,24 +79,45 @@ nextButton.addEventListener("click", () => {
   updateSelection(selectedIndex + 1);
 });
 
+function isInsideGestureTarget(clientX, clientY) {
+  const rect = gestureTarget.getBoundingClientRect();
+  return (
+    clientX >= rect.left &&
+    clientX <= rect.right &&
+    clientY >= rect.top &&
+    clientY <= rect.bottom
+  );
+}
+
 function beginGesture(clientX, clientY, pointerId = null) {
   gestureStartX = clientX;
   gestureStartY = clientY;
   gesturePointerId = pointerId;
   gestureMoved = false;
+  gestureActive = true;
 }
 
 function moveGesture(clientX, clientY, event) {
+  if (!gestureActive) {
+    return;
+  }
+
   const deltaX = clientX - gestureStartX;
   const deltaY = clientY - gestureStartY;
 
   if (Math.abs(deltaX) > 8 && Math.abs(deltaX) > Math.abs(deltaY) * 1.1) {
     gestureMoved = true;
-    event?.preventDefault?.();
+    if (event && typeof event.preventDefault === "function") {
+      event.preventDefault();
+    }
   }
 }
 
 function finishGesture(clientX, clientY, pointerId = null) {
+  if (!gestureActive) {
+    return;
+  }
+
   if (gesturePointerId !== null && pointerId !== null && gesturePointerId !== pointerId) {
     return;
   }
@@ -103,6 +125,7 @@ function finishGesture(clientX, clientY, pointerId = null) {
   const deltaX = clientX - gestureStartX;
   const deltaY = clientY - gestureStartY;
   gesturePointerId = null;
+  gestureActive = false;
 
   if (!gestureMoved && Math.abs(deltaX) < 28) {
     return;
@@ -142,25 +165,40 @@ if (window.PointerEvent) {
   });
 }
 
-gestureTarget.addEventListener("touchstart", (event) => {
+document.addEventListener("touchstart", (event) => {
   const touch = event.changedTouches[0];
+  if (!touch || !isInsideGestureTarget(touch.clientX, touch.clientY)) {
+    gestureActive = false;
+    return;
+  }
+
   beginGesture(touch.clientX, touch.clientY);
-}, { passive: true });
+}, { capture: true, passive: true });
 
-gestureTarget.addEventListener("touchmove", (event) => {
+document.addEventListener("touchmove", (event) => {
   const touch = event.changedTouches[0];
+  if (!touch) {
+    return;
+  }
+
   moveGesture(touch.clientX, touch.clientY, event);
-}, { passive: false });
+}, { capture: true, passive: false });
 
-gestureTarget.addEventListener("touchend", (event) => {
+document.addEventListener("touchend", (event) => {
   const touch = event.changedTouches[0];
+  if (!touch) {
+    gestureActive = false;
+    return;
+  }
+
   lastTouchGestureAt = Date.now();
   finishGesture(touch.clientX, touch.clientY);
-}, { passive: true });
+}, { capture: true, passive: true });
 
-gestureTarget.addEventListener("touchcancel", () => {
+document.addEventListener("touchcancel", () => {
   gesturePointerId = null;
-}, { passive: true });
+  gestureActive = false;
+}, { capture: true, passive: true });
 
 downloadButton.addEventListener("click", () => {
   const selected = wallpapers[selectedIndex];
