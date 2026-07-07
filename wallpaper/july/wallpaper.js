@@ -31,7 +31,6 @@ const previousButton = document.querySelector("[data-carousel-prev]");
 const nextButton = document.querySelector("[data-carousel-next]");
 const via = new URLSearchParams(window.location.search).get("via") || "direct";
 let selectedIndex = 0;
-let scrollFrame = 0;
 let settleTimer = 0;
 
 function trackEvent(path) {
@@ -44,8 +43,12 @@ function normalizeIndex(index) {
   return (index + wallpapers.length) % wallpapers.length;
 }
 
+function clampIndex(index) {
+  return Math.min(Math.max(index, 0), wallpapers.length - 1);
+}
+
 function applySelection(index) {
-  selectedIndex = normalizeIndex(index);
+  selectedIndex = clampIndex(index);
   const selected = wallpapers[selectedIndex];
 
   title.textContent = selected.title;
@@ -65,7 +68,7 @@ function applySelection(index) {
 
 function syncSelectionFromScroll() {
   const width = track.clientWidth || 1;
-  const index = normalizeIndex(Math.round(track.scrollLeft / width));
+  const index = clampIndex(Math.round(track.scrollLeft / width));
   if (index !== selectedIndex) {
     applySelection(index);
   }
@@ -99,16 +102,10 @@ nextButton.addEventListener("click", () => {
 
 track.addEventListener("scroll", () => {
   window.clearTimeout(settleTimer);
-
-  if (!scrollFrame) {
-    scrollFrame = window.requestAnimationFrame(() => {
-      scrollFrame = 0;
-      syncSelectionFromScroll();
-    });
-  }
-
-  settleTimer = window.setTimeout(syncSelectionFromScroll, 90);
+  settleTimer = window.setTimeout(syncSelectionFromScroll, 140);
 }, { passive: true });
+
+track.addEventListener("scrollend", syncSelectionFromScroll, { passive: true });
 
 downloadButton.addEventListener("click", () => {
   const selected = wallpapers[selectedIndex];
