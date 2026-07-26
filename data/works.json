@@ -1,43 +1,164 @@
 [
   {
-    "id": "cesky-krumlov-along-schieles-blue-river",
-    "title": "Český Krumlov, Along Schiele’s Blue River",
-    "description": "Český Krumlov works from the Confetti Life project.",
+    "id": "analog-archive",
+    "title": "Analog Archive",
+    "description": "Analog Archive works from the Confetti Life project.",
     "cover": {
-      "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-01.png",
-      "title": "Český Krumlov, Along Schiele’s Blue River",
-      "alt": "Český Krumlov, Along Schiele’s Blue River cover artwork from the Confetti Life project."
+      "path": "assets/images/analog-archive/analog-archive-01.jpg",
+      "title": "Analog Archive",
+      "alt": "Analog Archive cover artwork from the Confetti Life project."
     },
     "images": [
       {
-        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-01.png",
-        "title": "Český Krumlov #1, 2026",
-        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 1 from the Confetti Life project."
+        "path": "assets/images/analog-archive/analog-archive-01.jpg",
+        "title": "Analog Archive #1, 2026",
+        "alt": "Analog Archive artwork 1 from the Confetti Life project."
       },
       {
-        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-02.png",
-        "title": "Český Krumlov #2, 2026",
-        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 2 from the Confetti Life project."
+        "path": "assets/images/analog-archive/analog-archive-02.png",
+        "title": "Analog Archive #2, 2026",
+        "alt": "Analog Archive artwork 2 from the Confetti Life project."
       },
       {
-        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-03.png",
-        "title": "Český Krumlov #3, 2026",
-        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 3 from the Confetti Life project."
+        "path": "assets/images/analog-archive/analog-archive-03.jpg",
+        "title": "Analog Archive #3, 2026",
+        "alt": "Analog Archive artwork 3 from the Confetti Life project."
       },
       {
-        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-04.png",
-        "title": "Český Krumlov #4, 2026",
-        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 4 from the Confetti Life project."
+        "path": "assets/images/analog-archive/analog-archive-04.png",
+        "title": "Analog Archive #4, 2026",
+        "alt": "Analog Archive artwork 4 from the Confetti Life project."
       },
       {
-        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-05.jpg",
-        "title": "Český Krumlov #5, 2026",
-        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 5 from the Confetti Life project."
+        "path": "assets/images/analog-archive/analog-archive-05.png",
+        "title": "Analog Archive #5, 2026",
+        "alt": "Analog Archive artwork 5 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "annecy-the-alley-where-glacial-water-flows",
+    "title": "Annecy, the Alley Where Glacial Water Flows",
+    "description": "Annecy works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/annecy-the-alley-where-glacial-water-flows/annecy-01.png",
+      "title": "Annecy, the Alley Where Glacial Water Flows",
+      "alt": "Annecy, the Alley Where Glacial Water Flows cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/annecy-the-alley-where-glacial-water-flows/annecy-01.png",
+        "title": "Annecy #1, 2026",
+        "alt": "Annecy, the Alley Where Glacial Water Flows artwork 1 from the Confetti Life project."
       },
       {
-        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-06.png",
-        "title": "Český Krumlov #6, 2026",
-        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 6 from the Confetti Life project."
+        "path": "assets/images/annecy-the-alley-where-glacial-water-flows/annecy-02.png",
+        "title": "Annecy #2, 2026",
+        "alt": "Annecy, the Alley Where Glacial Water Flows artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/annecy-the-alley-where-glacial-water-flows/annecy-03.png",
+        "title": "Annecy #3, 2026",
+        "alt": "Annecy, the Alley Where Glacial Water Flows artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/annecy-the-alley-where-glacial-water-flows/annecy-04.png",
+        "title": "Annecy #4, 2026",
+        "alt": "Annecy, the Alley Where Glacial Water Flows artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/annecy-the-alley-where-glacial-water-flows/annecy-05.png",
+        "title": "Annecy #5, 2026",
+        "alt": "Annecy, the Alley Where Glacial Water Flows artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/annecy-the-alley-where-glacial-water-flows/annecy-06.png",
+        "title": "Annecy #6, 2026",
+        "alt": "Annecy, the Alley Where Glacial Water Flows artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "fans",
+    "title": "Fans",
+    "description": "Fans works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/fans/fans-01.png",
+      "title": "Fans",
+      "alt": "Fans cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/fans/fans-01.png",
+        "title": "Fans #1, 2026",
+        "alt": "Fans artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fans/fans-02.png",
+        "title": "Fans #2, 2026",
+        "alt": "Fans artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fans/fans-03.png",
+        "title": "Fans #3, 2026",
+        "alt": "Fans artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fans/fans-04.png",
+        "title": "Fans #4, 2026",
+        "alt": "Fans artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fans/fans-05.png",
+        "title": "Fans #5, 2026",
+        "alt": "Fans artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fans/fans-06.png",
+        "title": "Fans #6, 2026",
+        "alt": "Fans artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "malta-between-sliema-and-valletta",
+    "title": "Malta, Between Sliema and Valletta",
+    "description": "Malta works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/malta-between-sliema-and-valletta/malta-01.png",
+      "title": "Malta, Between Sliema and Valletta",
+      "alt": "Malta, Between Sliema and Valletta cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/malta-between-sliema-and-valletta/malta-01.png",
+        "title": "Malta #1, 2026",
+        "alt": "Malta, Between Sliema and Valletta artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/malta-between-sliema-and-valletta/malta-02.jpg",
+        "title": "Malta #2, 2026",
+        "alt": "Malta, Between Sliema and Valletta artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/malta-between-sliema-and-valletta/malta-03.png",
+        "title": "Malta #3, 2026",
+        "alt": "Malta, Between Sliema and Valletta artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/malta-between-sliema-and-valletta/malta-04.png",
+        "title": "Malta #4, 2026",
+        "alt": "Malta, Between Sliema and Valletta artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/malta-between-sliema-and-valletta/malta-05.png",
+        "title": "Malta #5, 2026",
+        "alt": "Malta, Between Sliema and Valletta artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/malta-between-sliema-and-valletta/malta-06.png",
+        "title": "Malta #6, 2026",
+        "alt": "Malta, Between Sliema and Valletta artwork 6 from the Confetti Life project."
       }
     ]
   },
@@ -89,6 +210,85 @@
     ]
   },
   {
+    "id": "cesky-krumlov-along-schieles-blue-river",
+    "title": "Český Krumlov, Along Schiele’s Blue River",
+    "description": "Český Krumlov works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-01.png",
+      "title": "Český Krumlov, Along Schiele’s Blue River",
+      "alt": "Český Krumlov, Along Schiele’s Blue River cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-01.png",
+        "title": "Český Krumlov #1, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-02.png",
+        "title": "Český Krumlov #2, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-03.png",
+        "title": "Český Krumlov #3, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-04.png",
+        "title": "Český Krumlov #4, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-05.jpg",
+        "title": "Český Krumlov #5, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cesky-krumlov-along-schieles-blue-river/cesky-krumlov-06.png",
+        "title": "Český Krumlov #6, 2026",
+        "alt": "Český Krumlov, Along Schiele’s Blue River artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "tubes",
+    "title": "Tubes",
+    "description": "Tubes works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/tubes/tubes-01.png",
+      "title": "Tubes",
+      "alt": "Tubes cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/tubes/tubes-01.png",
+        "title": "Tubes #1, 2026",
+        "alt": "Tubes artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tubes/tubes-02.png",
+        "title": "Tubes #2, 2026",
+        "alt": "Tubes artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tubes/tubes-03.png",
+        "title": "Tubes #3, 2026",
+        "alt": "Tubes artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tubes/tubes-04.png",
+        "title": "Tubes #4, 2026",
+        "alt": "Tubes artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tubes/tubes-05.png",
+        "title": "Tubes #5, 2026",
+        "alt": "Tubes artwork 5 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "bergen-after-the-rain",
     "title": "Bergen, After the Rain",
     "description": "Bergen works from the Confetti Life project.",
@@ -127,43 +327,6 @@
         "path": "assets/images/bergen-after-the-rain/bergen-06.png",
         "title": "Bergen #6, 2026",
         "alt": "Bergen, After the Rain artwork 6 from the Confetti Life project."
-      }
-    ]
-  },
-  {
-    "id": "tubes",
-    "title": "Tubes",
-    "description": "Tubes works from the Confetti Life project.",
-    "cover": {
-      "path": "assets/images/tubes/tubes-01.png",
-      "title": "Tubes",
-      "alt": "Tubes cover artwork from the Confetti Life project."
-    },
-    "images": [
-      {
-        "path": "assets/images/tubes/tubes-01.png",
-        "title": "Tubes #1, 2026",
-        "alt": "Tubes artwork 1 from the Confetti Life project."
-      },
-      {
-        "path": "assets/images/tubes/tubes-02.png",
-        "title": "Tubes #2, 2026",
-        "alt": "Tubes artwork 2 from the Confetti Life project."
-      },
-      {
-        "path": "assets/images/tubes/tubes-03.png",
-        "title": "Tubes #3, 2026",
-        "alt": "Tubes artwork 3 from the Confetti Life project."
-      },
-      {
-        "path": "assets/images/tubes/tubes-04.png",
-        "title": "Tubes #4, 2026",
-        "alt": "Tubes artwork 4 from the Confetti Life project."
-      },
-      {
-        "path": "assets/images/tubes/tubes-05.png",
-        "title": "Tubes #5, 2026",
-        "alt": "Tubes artwork 5 from the Confetti Life project."
       }
     ]
   },
