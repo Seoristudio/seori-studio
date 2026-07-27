@@ -24,7 +24,7 @@ IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 DEFAULT_YEAR = 2026
 THUMBNAIL_MAX_SIZE = 1400
 WORKS_JSON_CACHE_LABEL = "weekly-works-auto"
-TITLE_SMALL_WORDS = {"a", "an", "and", "as", "at", "by", "for", "from", "in", "of", "on", "or", "the", "to", "with"}
+TITLE_SMALL_WORDS = {"a", "an", "and", "as", "at", "by", "en", "for", "from", "in", "of", "on", "or", "the", "to", "with"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -40,9 +40,16 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def normalize_display_title(value: str) -> str:
+    value = unicodedata.normalize("NFC", value).strip()
+    if "—" not in value and "," in value:
+        value = re.sub(r"\s*,\s*", " — ", value, count=1)
+    return value
+
+
 def smart_title_case(value: str) -> str:
-    value = unicodedata.normalize("NFC", value)
-    parts = re.split(r"(\s+—\s+)", value.strip())
+    value = normalize_display_title(value)
+    parts = re.split(r"(\s+—\s+)", value)
     return "".join(_title_case_part(part) if "—" not in part else part for part in parts)
 
 
@@ -52,12 +59,25 @@ def _title_case_part(value: str) -> str:
     for index, word in enumerate(words):
         if not word:
             continue
-        lowered = word.lower()
-        if 0 < index < len(words) - 1 and lowered in TITLE_SMALL_WORDS:
-            titled.append(lowered)
-        else:
-            titled.append(word[:1].upper() + word[1:].lower())
+        titled.append(_title_case_word(word, index, len(words)))
     return " ".join(titled)
+
+
+def _title_case_word(word: str, index: int, total: int) -> str:
+    if "-" in word:
+        segments = word.split("-")
+        return "-".join(_title_case_hyphen_segment(segment, part_index) for part_index, segment in enumerate(segments))
+    lowered = word.lower()
+    if 0 < index < total - 1 and lowered in TITLE_SMALL_WORDS:
+        return lowered
+    return word[:1].upper() + word[1:].lower()
+
+
+def _title_case_hyphen_segment(segment: str, part_index: int) -> str:
+    lowered = segment.lower()
+    if part_index > 0 and lowered in TITLE_SMALL_WORDS:
+        return lowered
+    return segment[:1].upper() + segment[1:].lower()
 
 
 def slugify(value: str) -> str:
@@ -186,15 +206,30 @@ def update_works_json(site_root: Path, collections: list[dict], apply: bool) -> 
 
 
 def bump_script_cache(site_root: Path, apply: bool) -> list[str]:
-    path = site_root / "script.js"
-    text = path.read_text(encoding="utf-8")
     cache_key = f"{dt.date.today():%Y%m%d}-{WORKS_JSON_CACHE_LABEL}"
+    script_path = site_root / "script.js"
+    text = script_path.read_text(encoding="utf-8")
     updated, count = re.subn(r'data/works\.json\?v=[^"]+', f"data/works.json?v={cache_key}", text, count=1)
     if count != 1:
         raise SystemExit("Could not find the data/works.json cache key in script.js.")
+    operations = [f"script.js: bump Works JSON cache key to {cache_key}"]
     if apply:
-        path.write_text(updated, encoding="utf-8")
-    return [f"script.js: bump Works JSON cache key to {cache_key}"]
+        script_path.write_text(updated, encoding="utf-8")
+
+    for html_name in ("index.html", "works.html", "about.html"):
+        html_path = site_root / html_name
+        html = html_path.read_text(encoding="utf-8")
+        html_updated, html_count = re.subn(
+            r'script\.js\?v=[A-Za-z0-9_.-]+',
+            f"script.js?v={cache_key}",
+            html,
+        )
+        if html_count != 1:
+            raise SystemExit(f"Could not find the script.js cache key in {html_name}.")
+        if apply:
+            html_path.write_text(html_updated, encoding="utf-8")
+        operations.append(f"{html_name}: bump script.js cache key to {cache_key}")
+    return operations
 
 
 def main() -> int:

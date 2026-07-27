@@ -47,7 +47,9 @@ cp tools/weekly-works.example.json tools/weekly-works.json
 ```
 
 Edit `tools/weekly-works.json` and replace the four `zip` paths with the new
-weekly ZIP files. Add the items in the exact homepage display order:
+weekly ZIP files. For city-style titles, commas in the input are normalized to
+an em dash in the site display, so `Bergen, After the Rain` becomes
+`Bergen — After the Rain`. Add the items in the exact homepage display order:
 item 1 appears at the left as the newest work, followed by items 2, 3, and 4.
 Keep `"displayOrder": "normal"` for this workflow.
 
