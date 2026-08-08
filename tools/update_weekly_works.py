@@ -67,6 +67,8 @@ def _title_case_word(word: str, index: int, total: int) -> str:
     if "-" in word:
         segments = word.split("-")
         return "-".join(_title_case_hyphen_segment(segment, part_index) for part_index, segment in enumerate(segments))
+    if "'" in word or "’" in word:
+        return _title_case_apostrophe_word(word, index, total)
     lowered = word.lower()
     if 0 < index < total - 1 and lowered in TITLE_SMALL_WORDS:
         return lowered
@@ -78,6 +80,25 @@ def _title_case_hyphen_segment(segment: str, part_index: int) -> str:
     if part_index > 0 and lowered in TITLE_SMALL_WORDS:
         return lowered
     return segment[:1].upper() + segment[1:].lower()
+
+
+def _title_case_apostrophe_word(word: str, index: int, total: int) -> str:
+    mark = "’" if "’" in word else "'"
+    segments = word.split(mark)
+    titled = []
+    for part_index, segment in enumerate(segments):
+        lowered = segment.lower()
+        if not segment:
+            titled.append(segment)
+        elif part_index == 0 and lowered in {"d", "l"}:
+            titled.append(lowered)
+        elif part_index > 0 and lowered in {"s", "t", "re", "ve", "ll", "d", "m"}:
+            titled.append(lowered)
+        elif 0 < index < total - 1 and part_index == 0 and lowered in TITLE_SMALL_WORDS:
+            titled.append(lowered)
+        else:
+            titled.append(segment[:1].upper() + segment[1:].lower())
+    return mark.join(titled)
 
 
 def slugify(value: str) -> str:

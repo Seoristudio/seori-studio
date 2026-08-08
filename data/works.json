@@ -1,5 +1,173 @@
 [
   {
+    "id": "cooking",
+    "title": "Cooking",
+    "description": "Cooking works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/cooking/cooking-01.png",
+      "title": "Cooking",
+      "alt": "Cooking cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/cooking/cooking-01.png",
+        "title": "Cooking #1, 2026",
+        "alt": "Cooking artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cooking/cooking-02.png",
+        "title": "Cooking #2, 2026",
+        "alt": "Cooking artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cooking/cooking-03.png",
+        "title": "Cooking #3, 2026",
+        "alt": "Cooking artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cooking/cooking-04.png",
+        "title": "Cooking #4, 2026",
+        "alt": "Cooking artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cooking/cooking-05.png",
+        "title": "Cooking #5, 2026",
+        "alt": "Cooking artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/cooking/cooking-06.png",
+        "title": "Cooking #6, 2026",
+        "alt": "Cooking artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "val-d-orcia-where-the-sunflowers-turn",
+    "title": "Val d'Orcia — Where the Sunflowers Turn",
+    "description": "Val d'Orcia works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/val-d-orcia-where-the-sunflowers-turn/val-d-orcia-01.png",
+      "title": "Val d'Orcia — Where the Sunflowers Turn",
+      "alt": "Val d'Orcia — Where the Sunflowers Turn cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/val-d-orcia-where-the-sunflowers-turn/val-d-orcia-01.png",
+        "title": "Val d'Orcia #1, 2026",
+        "alt": "Val d'Orcia — Where the Sunflowers Turn artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/val-d-orcia-where-the-sunflowers-turn/val-d-orcia-02.png",
+        "title": "Val d'Orcia #2, 2026",
+        "alt": "Val d'Orcia — Where the Sunflowers Turn artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/val-d-orcia-where-the-sunflowers-turn/val-d-orcia-03.png",
+        "title": "Val d'Orcia #3, 2026",
+        "alt": "Val d'Orcia — Where the Sunflowers Turn artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/val-d-orcia-where-the-sunflowers-turn/val-d-orcia-04.png",
+        "title": "Val d'Orcia #4, 2026",
+        "alt": "Val d'Orcia — Where the Sunflowers Turn artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/val-d-orcia-where-the-sunflowers-turn/val-d-orcia-05.png",
+        "title": "Val d'Orcia #5, 2026",
+        "alt": "Val d'Orcia — Where the Sunflowers Turn artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/val-d-orcia-where-the-sunflowers-turn/val-d-orcia-06.png",
+        "title": "Val d'Orcia #6, 2026",
+        "alt": "Val d'Orcia — Where the Sunflowers Turn artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "summer-shoes",
+    "title": "Summer Shoes",
+    "description": "Summer Shoes works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/summer-shoes/summer-shoes-01.png",
+      "title": "Summer Shoes",
+      "alt": "Summer Shoes cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/summer-shoes/summer-shoes-01.png",
+        "title": "Summer Shoes #1, 2026",
+        "alt": "Summer Shoes artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/summer-shoes/summer-shoes-02.png",
+        "title": "Summer Shoes #2, 2026",
+        "alt": "Summer Shoes artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/summer-shoes/summer-shoes-03.png",
+        "title": "Summer Shoes #3, 2026",
+        "alt": "Summer Shoes artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/summer-shoes/summer-shoes-04.png",
+        "title": "Summer Shoes #4, 2026",
+        "alt": "Summer Shoes artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/summer-shoes/summer-shoes-05.png",
+        "title": "Summer Shoes #5, 2026",
+        "alt": "Summer Shoes artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/summer-shoes/summer-shoes-06.png",
+        "title": "Summer Shoes #6, 2026",
+        "alt": "Summer Shoes artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "granada-where-the-pomegranate-blooms",
+    "title": "Granada — Where the Pomegranate Blooms",
+    "description": "Granada works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/granada-where-the-pomegranate-blooms/granada-01.png",
+      "title": "Granada — Where the Pomegranate Blooms",
+      "alt": "Granada — Where the Pomegranate Blooms cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/granada-where-the-pomegranate-blooms/granada-01.png",
+        "title": "Granada #1, 2026",
+        "alt": "Granada — Where the Pomegranate Blooms artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/granada-where-the-pomegranate-blooms/granada-02.png",
+        "title": "Granada #2, 2026",
+        "alt": "Granada — Where the Pomegranate Blooms artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/granada-where-the-pomegranate-blooms/granada-03.png",
+        "title": "Granada #3, 2026",
+        "alt": "Granada — Where the Pomegranate Blooms artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/granada-where-the-pomegranate-blooms/granada-04.png",
+        "title": "Granada #4, 2026",
+        "alt": "Granada — Where the Pomegranate Blooms artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/granada-where-the-pomegranate-blooms/granada-05.png",
+        "title": "Granada #5, 2026",
+        "alt": "Granada — Where the Pomegranate Blooms artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/granada-where-the-pomegranate-blooms/granada-06.png",
+        "title": "Granada #6, 2026",
+        "alt": "Granada — Where the Pomegranate Blooms artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "tea-time",
     "title": "Tea Time",
     "description": "Tea Time works from the Confetti Life project.",
