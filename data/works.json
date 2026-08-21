@@ -1,5 +1,168 @@
 [
   {
+    "id": "snack-aisle",
+    "title": "Snack Aisle",
+    "description": "Snack Aisle works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/snack-aisle/snack-aisle-01.png",
+      "title": "Snack Aisle",
+      "alt": "Snack Aisle cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/snack-aisle/snack-aisle-01.png",
+        "title": "Snack Aisle #1, 2026",
+        "alt": "Snack Aisle artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/snack-aisle/snack-aisle-02.png",
+        "title": "Snack Aisle #2, 2026",
+        "alt": "Snack Aisle artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/snack-aisle/snack-aisle-03.png",
+        "title": "Snack Aisle #3, 2026",
+        "alt": "Snack Aisle artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/snack-aisle/snack-aisle-04.png",
+        "title": "Snack Aisle #4, 2026",
+        "alt": "Snack Aisle artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/snack-aisle/snack-aisle-05.png",
+        "title": "Snack Aisle #5, 2026",
+        "alt": "Snack Aisle artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/snack-aisle/snack-aisle-06.png",
+        "title": "Snack Aisle #6, 2026",
+        "alt": "Snack Aisle artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "edinburgh-paper-and-stone",
+    "title": "Edinburgh — Paper and Stone",
+    "description": "Edinburgh works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/edinburgh-paper-and-stone/edinburgh-01.png",
+      "title": "Edinburgh — Paper and Stone",
+      "alt": "Edinburgh — Paper and Stone cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/edinburgh-paper-and-stone/edinburgh-01.png",
+        "title": "Edinburgh #1, 2026",
+        "alt": "Edinburgh — Paper and Stone artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/edinburgh-paper-and-stone/edinburgh-02.png",
+        "title": "Edinburgh #2, 2026",
+        "alt": "Edinburgh — Paper and Stone artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/edinburgh-paper-and-stone/edinburgh-03.png",
+        "title": "Edinburgh #3, 2026",
+        "alt": "Edinburgh — Paper and Stone artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/edinburgh-paper-and-stone/edinburgh-04.png",
+        "title": "Edinburgh #4, 2026",
+        "alt": "Edinburgh — Paper and Stone artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/edinburgh-paper-and-stone/edinburgh-05.png",
+        "title": "Edinburgh #5, 2026",
+        "alt": "Edinburgh — Paper and Stone artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/edinburgh-paper-and-stone/edinburgh-06.png",
+        "title": "Edinburgh #6, 2026",
+        "alt": "Edinburgh — Paper and Stone artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "the-vanity",
+    "title": "The Vanity",
+    "description": "The Vanity works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/the-vanity/the-vanity-01.png",
+      "title": "The Vanity",
+      "alt": "The Vanity cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/the-vanity/the-vanity-01.png",
+        "title": "The Vanity #1, 2026",
+        "alt": "The Vanity artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-vanity/the-vanity-02.png",
+        "title": "The Vanity #2, 2026",
+        "alt": "The Vanity artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-vanity/the-vanity-03.png",
+        "title": "The Vanity #3, 2026",
+        "alt": "The Vanity artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-vanity/the-vanity-04.png",
+        "title": "The Vanity #4, 2026",
+        "alt": "The Vanity artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-vanity/the-vanity-05.png",
+        "title": "The Vanity #5, 2026",
+        "alt": "The Vanity artwork 5 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "budapest-amber-baths-cobalt-river",
+    "title": "Budapest — Amber Baths, Cobalt River",
+    "description": "Budapest works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/budapest-amber-baths-cobalt-river/budapest-01.png",
+      "title": "Budapest — Amber Baths, Cobalt River",
+      "alt": "Budapest — Amber Baths, Cobalt River cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/budapest-amber-baths-cobalt-river/budapest-01.png",
+        "title": "Budapest #1, 2026",
+        "alt": "Budapest — Amber Baths, Cobalt River artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/budapest-amber-baths-cobalt-river/budapest-02.png",
+        "title": "Budapest #2, 2026",
+        "alt": "Budapest — Amber Baths, Cobalt River artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/budapest-amber-baths-cobalt-river/budapest-03.png",
+        "title": "Budapest #3, 2026",
+        "alt": "Budapest — Amber Baths, Cobalt River artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/budapest-amber-baths-cobalt-river/budapest-04.png",
+        "title": "Budapest #4, 2026",
+        "alt": "Budapest — Amber Baths, Cobalt River artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/budapest-amber-baths-cobalt-river/budapest-05.png",
+        "title": "Budapest #5, 2026",
+        "alt": "Budapest — Amber Baths, Cobalt River artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/budapest-amber-baths-cobalt-river/budapest-06.png",
+        "title": "Budapest #6, 2026",
+        "alt": "Budapest — Amber Baths, Cobalt River artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "cooking",
     "title": "Cooking",
     "description": "Cooking works from the Confetti Life project.",
