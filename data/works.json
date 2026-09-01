@@ -1,5 +1,173 @@
 [
   {
+    "id": "powder-room",
+    "title": "Powder Room",
+    "description": "Powder Room works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/powder-room/powder-room-01.png",
+      "title": "Powder Room",
+      "alt": "Powder Room cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/powder-room/powder-room-01.png",
+        "title": "Powder Room #1, 2026",
+        "alt": "Powder Room artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/powder-room/powder-room-02.png",
+        "title": "Powder Room #2, 2026",
+        "alt": "Powder Room artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/powder-room/powder-room-03.png",
+        "title": "Powder Room #3, 2026",
+        "alt": "Powder Room artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/powder-room/powder-room-04.png",
+        "title": "Powder Room #4, 2026",
+        "alt": "Powder Room artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/powder-room/powder-room-05.png",
+        "title": "Powder Room #5, 2026",
+        "alt": "Powder Room artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/powder-room/powder-room-06.png",
+        "title": "Powder Room #6, 2026",
+        "alt": "Powder Room artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "hair-candy",
+    "title": "Hair Candy",
+    "description": "Hair Candy works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/hair-candy/hair-candy-01.png",
+      "title": "Hair Candy",
+      "alt": "Hair Candy cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/hair-candy/hair-candy-01.png",
+        "title": "Hair Candy #1, 2026",
+        "alt": "Hair Candy artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/hair-candy/hair-candy-02.png",
+        "title": "Hair Candy #2, 2026",
+        "alt": "Hair Candy artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/hair-candy/hair-candy-03.png",
+        "title": "Hair Candy #3, 2026",
+        "alt": "Hair Candy artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/hair-candy/hair-candy-04.png",
+        "title": "Hair Candy #4, 2026",
+        "alt": "Hair Candy artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/hair-candy/hair-candy-05.png",
+        "title": "Hair Candy #5, 2026",
+        "alt": "Hair Candy artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/hair-candy/hair-candy-06.png",
+        "title": "Hair Candy #6, 2026",
+        "alt": "Hair Candy artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "crowned-in-bloom",
+    "title": "Crowned in Bloom",
+    "description": "Crowned in Bloom works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/crowned-in-bloom/crowned-in-bloom-01.png",
+      "title": "Crowned in Bloom",
+      "alt": "Crowned in Bloom cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/crowned-in-bloom/crowned-in-bloom-01.png",
+        "title": "Crowned in Bloom #1, 2026",
+        "alt": "Crowned in Bloom artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/crowned-in-bloom/crowned-in-bloom-02.png",
+        "title": "Crowned in Bloom #2, 2026",
+        "alt": "Crowned in Bloom artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/crowned-in-bloom/crowned-in-bloom-03.png",
+        "title": "Crowned in Bloom #3, 2026",
+        "alt": "Crowned in Bloom artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/crowned-in-bloom/crowned-in-bloom-04.png",
+        "title": "Crowned in Bloom #4, 2026",
+        "alt": "Crowned in Bloom artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/crowned-in-bloom/crowned-in-bloom-05.png",
+        "title": "Crowned in Bloom #5, 2026",
+        "alt": "Crowned in Bloom artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/crowned-in-bloom/crowned-in-bloom-06.png",
+        "title": "Crowned in Bloom #6, 2026",
+        "alt": "Crowned in Bloom artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "the-hat-parade",
+    "title": "The Hat Parade",
+    "description": "The Hat Parade works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/the-hat-parade/the-hat-parade-01.png",
+      "title": "The Hat Parade",
+      "alt": "The Hat Parade cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/the-hat-parade/the-hat-parade-01.png",
+        "title": "The Hat Parade #1, 2026",
+        "alt": "The Hat Parade artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-hat-parade/the-hat-parade-02.png",
+        "title": "The Hat Parade #2, 2026",
+        "alt": "The Hat Parade artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-hat-parade/the-hat-parade-03.png",
+        "title": "The Hat Parade #3, 2026",
+        "alt": "The Hat Parade artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-hat-parade/the-hat-parade-04.png",
+        "title": "The Hat Parade #4, 2026",
+        "alt": "The Hat Parade artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-hat-parade/the-hat-parade-05.png",
+        "title": "The Hat Parade #5, 2026",
+        "alt": "The Hat Parade artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-hat-parade/the-hat-parade-06.png",
+        "title": "The Hat Parade #6, 2026",
+        "alt": "The Hat Parade artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "snack-aisle",
     "title": "Snack Aisle",
     "description": "Snack Aisle works from the Confetti Life project.",
