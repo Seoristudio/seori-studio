@@ -1010,14 +1010,24 @@ h3 {
   line-height: 1.72;
 }
 
-.exhibition-year {
-  display: inline-block;
-  width: 52px;
+.exhibition-list {
+  display: grid;
+  gap: 18px;
+}
+
+.exhibition-item {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  column-gap: 20px;
+}
+
+.exhibition-date {
+  display: block;
 }
 
 .exhibition-title {
-  display: inline-block;
-  vertical-align: top;
+  display: block;
+  min-width: 0;
 }
 
 .series-list {
