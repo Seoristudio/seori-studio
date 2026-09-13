@@ -1,5 +1,163 @@
 [
   {
+    "id": "a-school-for-spells",
+    "title": "A School for Spells",
+    "description": "A School for Spells works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/a-school-for-spells/a-school-for-spells-01.png",
+      "title": "A School for Spells",
+      "alt": "A School for Spells cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/a-school-for-spells/a-school-for-spells-01.png",
+        "title": "A School for Spells #1, 2026",
+        "alt": "A School for Spells artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-school-for-spells/a-school-for-spells-02.png",
+        "title": "A School for Spells #2, 2026",
+        "alt": "A School for Spells artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-school-for-spells/a-school-for-spells-03.png",
+        "title": "A School for Spells #3, 2026",
+        "alt": "A School for Spells artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-school-for-spells/a-school-for-spells-04.jpg",
+        "title": "A School for Spells #4, 2026",
+        "alt": "A School for Spells artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-school-for-spells/a-school-for-spells-05.png",
+        "title": "A School for Spells #5, 2026",
+        "alt": "A School for Spells artwork 5 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "monza-a-town-turns-red",
+    "title": "Monza — A Town Turns Red",
+    "description": "Monza works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/monza-a-town-turns-red/monza-01.jpg",
+      "title": "Monza — A Town Turns Red",
+      "alt": "Monza — A Town Turns Red cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/monza-a-town-turns-red/monza-01.jpg",
+        "title": "Monza #1, 2026",
+        "alt": "Monza — A Town Turns Red artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/monza-a-town-turns-red/monza-02.png",
+        "title": "Monza #2, 2026",
+        "alt": "Monza — A Town Turns Red artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/monza-a-town-turns-red/monza-03.png",
+        "title": "Monza #3, 2026",
+        "alt": "Monza — A Town Turns Red artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/monza-a-town-turns-red/monza-04.png",
+        "title": "Monza #4, 2026",
+        "alt": "Monza — A Town Turns Red artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/monza-a-town-turns-red/monza-05.png",
+        "title": "Monza #5, 2026",
+        "alt": "Monza — A Town Turns Red artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/monza-a-town-turns-red/monza-06.png",
+        "title": "Monza #6, 2026",
+        "alt": "Monza — A Town Turns Red artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "fortune-parlour",
+    "title": "Fortune Parlour",
+    "description": "Fortune Parlour works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/fortune-parlour/fortune-parlour-01.png",
+      "title": "Fortune Parlour",
+      "alt": "Fortune Parlour cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/fortune-parlour/fortune-parlour-01.png",
+        "title": "Fortune Parlour #1, 2026",
+        "alt": "Fortune Parlour artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fortune-parlour/fortune-parlour-02.png",
+        "title": "Fortune Parlour #2, 2026",
+        "alt": "Fortune Parlour artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fortune-parlour/fortune-parlour-03.png",
+        "title": "Fortune Parlour #3, 2026",
+        "alt": "Fortune Parlour artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fortune-parlour/fortune-parlour-04.png",
+        "title": "Fortune Parlour #4, 2026",
+        "alt": "Fortune Parlour artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/fortune-parlour/fortune-parlour-05.png",
+        "title": "Fortune Parlour #5, 2026",
+        "alt": "Fortune Parlour artwork 5 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "rotterdam-cubes-and-canals",
+    "title": "Rotterdam — Cubes and Canals",
+    "description": "Rotterdam works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/rotterdam-cubes-and-canals/rotterdam-01.png",
+      "title": "Rotterdam — Cubes and Canals",
+      "alt": "Rotterdam — Cubes and Canals cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/rotterdam-cubes-and-canals/rotterdam-01.png",
+        "title": "Rotterdam #1, 2026",
+        "alt": "Rotterdam — Cubes and Canals artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/rotterdam-cubes-and-canals/rotterdam-02.png",
+        "title": "Rotterdam #2, 2026",
+        "alt": "Rotterdam — Cubes and Canals artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/rotterdam-cubes-and-canals/rotterdam-03.png",
+        "title": "Rotterdam #3, 2026",
+        "alt": "Rotterdam — Cubes and Canals artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/rotterdam-cubes-and-canals/rotterdam-04.png",
+        "title": "Rotterdam #4, 2026",
+        "alt": "Rotterdam — Cubes and Canals artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/rotterdam-cubes-and-canals/rotterdam-05.png",
+        "title": "Rotterdam #5, 2026",
+        "alt": "Rotterdam — Cubes and Canals artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/rotterdam-cubes-and-canals/rotterdam-06.png",
+        "title": "Rotterdam #6, 2026",
+        "alt": "Rotterdam — Cubes and Canals artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "powder-room",
     "title": "Powder Room",
     "description": "Powder Room works from the Confetti Life project.",
