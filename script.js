@@ -2,6 +2,7 @@ const previewGrid = document.querySelector("[data-home-preview]");
 const worksList = document.querySelector("[data-works-list]");
 const worksHeading = document.querySelector(".works-page .page-heading");
 const aboutCarousel = document.querySelector("[data-about-carousel]");
+const petCarousel = document.querySelector("[data-pet-carousel]");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const revealSelectors = [
   ".intro-section p",
@@ -536,6 +537,83 @@ function setupAboutCarousel() {
   startAutoRotate();
 }
 
+function setupPetCarousel() {
+  if (!petCarousel) {
+    return;
+  }
+
+  const slides = [...petCarousel.querySelectorAll("[data-pet-slide]")];
+  const dots = [...petCarousel.querySelectorAll("[data-pet-carousel-dot]")];
+  const video = petCarousel.querySelector(".shop-carousel-video");
+  const videoFallback = petCarousel.querySelector(".shop-carousel-video-fallback");
+  let activeIndex = 0;
+  let timer = null;
+
+  function showSlide(index) {
+    activeIndex = (index + slides.length) % slides.length;
+
+    slides.forEach((slide, slideIndex) => {
+      const slideVideo = slide.querySelector("video");
+      const isActive = slideIndex === activeIndex;
+
+      slide.classList.toggle("is-active", isActive);
+
+      if (slideVideo) {
+        if (isActive && !reduceMotion) {
+          slideVideo.play().catch(() => {});
+        } else {
+          slideVideo.pause();
+        }
+      }
+    });
+
+    dots.forEach((dot, dotIndex) => {
+      dot.classList.toggle("is-active", dotIndex === activeIndex);
+      dot.setAttribute("aria-pressed", String(dotIndex === activeIndex));
+    });
+  }
+
+  function startAutoRotate() {
+    if (reduceMotion || slides.length < 2) {
+      return;
+    }
+
+    window.clearInterval(timer);
+    timer = window.setInterval(() => showSlide(activeIndex + 1), 3000);
+  }
+
+  if (video && videoFallback) {
+    const showVideo = () => {
+      video.hidden = false;
+      videoFallback.hidden = true;
+    };
+
+    const showVideoFallback = () => {
+      video.hidden = true;
+      videoFallback.hidden = false;
+    };
+
+    video.addEventListener("canplay", showVideo);
+    video.addEventListener("error", showVideoFallback);
+    showVideoFallback();
+  }
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      showSlide(index);
+      startAutoRotate();
+    });
+  });
+
+  petCarousel.querySelector(".shop-carousel-track")?.addEventListener("click", () => {
+    showSlide(activeIndex + 1);
+    startAutoRotate();
+  });
+
+  showSlide(0);
+  startAutoRotate();
+}
+
 function setupImageLightbox() {
   const modal = document.createElement("div");
   modal.className = "image-lightbox";
@@ -967,6 +1045,7 @@ randomizeStars();
 setupHomeHeader();
 setupHeroDepth();
 setupAboutCarousel();
+setupPetCarousel();
 setupSparkleCursor();
 setupImageLightbox();
 setupWorkCardHover();
