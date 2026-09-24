@@ -2133,7 +2133,7 @@ h3 {
 
 .shop-page-body .page-main {
   padding-top: clamp(58px, 8vw, 112px);
-  padding-bottom: clamp(92px, 12vw, 160px);
+  padding-bottom: 0;
 }
 
 .shop-page {
@@ -2195,6 +2195,7 @@ h3 {
 
 .shop-product--confetti {
   --shop-panel: var(--bg);
+  padding-bottom: clamp(58px, 8vw, 112px);
 }
 
 .shop-product-media {
@@ -2428,7 +2429,7 @@ h3 {
 @media (max-width: 560px) {
   .shop-page-body .page-main {
     padding-top: 54px;
-    padding-bottom: 92px;
+    padding-bottom: 0;
   }
 
   .shop-heading {
@@ -2451,6 +2452,10 @@ h3 {
 
   .shop-product--confetti .shop-product-media {
     aspect-ratio: 3 / 4;
+  }
+
+  .shop-product--confetti {
+    padding-bottom: 54px;
   }
 
   .shop-product-copy h2 {
