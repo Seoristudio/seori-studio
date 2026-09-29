@@ -1,5 +1,173 @@
 [
   {
+    "id": "the-bijou",
+    "title": "The Bijou",
+    "description": "The Bijou works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/the-bijou/the-bijou-01.png",
+      "title": "The Bijou",
+      "alt": "The Bijou cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/the-bijou/the-bijou-01.png",
+        "title": "The Bijou #1, 2026",
+        "alt": "The Bijou artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-bijou/the-bijou-02.png",
+        "title": "The Bijou #2, 2026",
+        "alt": "The Bijou artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-bijou/the-bijou-03.png",
+        "title": "The Bijou #3, 2026",
+        "alt": "The Bijou artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-bijou/the-bijou-04.png",
+        "title": "The Bijou #4, 2026",
+        "alt": "The Bijou artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-bijou/the-bijou-05.png",
+        "title": "The Bijou #5, 2026",
+        "alt": "The Bijou artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-bijou/the-bijou-06.png",
+        "title": "The Bijou #6, 2026",
+        "alt": "The Bijou artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "tbilisi-wooden-lace-amber-wine",
+    "title": "Tbilisi — Wooden Lace, Amber Wine",
+    "description": "Tbilisi works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/tbilisi-wooden-lace-amber-wine/tbilisi-01.png",
+      "title": "Tbilisi — Wooden Lace, Amber Wine",
+      "alt": "Tbilisi — Wooden Lace, Amber Wine cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/tbilisi-wooden-lace-amber-wine/tbilisi-01.png",
+        "title": "Tbilisi #1, 2026",
+        "alt": "Tbilisi — Wooden Lace, Amber Wine artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tbilisi-wooden-lace-amber-wine/tbilisi-02.png",
+        "title": "Tbilisi #2, 2026",
+        "alt": "Tbilisi — Wooden Lace, Amber Wine artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tbilisi-wooden-lace-amber-wine/tbilisi-03.png",
+        "title": "Tbilisi #3, 2026",
+        "alt": "Tbilisi — Wooden Lace, Amber Wine artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tbilisi-wooden-lace-amber-wine/tbilisi-04.png",
+        "title": "Tbilisi #4, 2026",
+        "alt": "Tbilisi — Wooden Lace, Amber Wine artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tbilisi-wooden-lace-amber-wine/tbilisi-05.png",
+        "title": "Tbilisi #5, 2026",
+        "alt": "Tbilisi — Wooden Lace, Amber Wine artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/tbilisi-wooden-lace-amber-wine/tbilisi-06.png",
+        "title": "Tbilisi #6, 2026",
+        "alt": "Tbilisi — Wooden Lace, Amber Wine artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "the-potted-garden",
+    "title": "The Potted Garden",
+    "description": "The Potted Garden works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/the-potted-garden/the-potted-garden-01.png",
+      "title": "The Potted Garden",
+      "alt": "The Potted Garden cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/the-potted-garden/the-potted-garden-01.png",
+        "title": "The Potted Garden #1, 2026",
+        "alt": "The Potted Garden artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-potted-garden/the-potted-garden-02.png",
+        "title": "The Potted Garden #2, 2026",
+        "alt": "The Potted Garden artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-potted-garden/the-potted-garden-03.png",
+        "title": "The Potted Garden #3, 2026",
+        "alt": "The Potted Garden artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-potted-garden/the-potted-garden-04.png",
+        "title": "The Potted Garden #4, 2026",
+        "alt": "The Potted Garden artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-potted-garden/the-potted-garden-05.png",
+        "title": "The Potted Garden #5, 2026",
+        "alt": "The Potted Garden artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-potted-garden/the-potted-garden-06.png",
+        "title": "The Potted Garden #6, 2026",
+        "alt": "The Potted Garden artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "ohrid-stone-curves-lake-light",
+    "title": "Ohrid — Stone Curves, Lake Light",
+    "description": "Ohrid works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/ohrid-stone-curves-lake-light/ohrid-01.png",
+      "title": "Ohrid — Stone Curves, Lake Light",
+      "alt": "Ohrid — Stone Curves, Lake Light cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/ohrid-stone-curves-lake-light/ohrid-01.png",
+        "title": "Ohrid #1, 2026",
+        "alt": "Ohrid — Stone Curves, Lake Light artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ohrid-stone-curves-lake-light/ohrid-02.png",
+        "title": "Ohrid #2, 2026",
+        "alt": "Ohrid — Stone Curves, Lake Light artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ohrid-stone-curves-lake-light/ohrid-03.jpg",
+        "title": "Ohrid #3, 2026",
+        "alt": "Ohrid — Stone Curves, Lake Light artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ohrid-stone-curves-lake-light/ohrid-04.png",
+        "title": "Ohrid #4, 2026",
+        "alt": "Ohrid — Stone Curves, Lake Light artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ohrid-stone-curves-lake-light/ohrid-05.png",
+        "title": "Ohrid #5, 2026",
+        "alt": "Ohrid — Stone Curves, Lake Light artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ohrid-stone-curves-lake-light/ohrid-06.png",
+        "title": "Ohrid #6, 2026",
+        "alt": "Ohrid — Stone Curves, Lake Light artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "a-school-for-spells",
     "title": "A School for Spells",
     "description": "A School for Spells works from the Confetti Life project.",
