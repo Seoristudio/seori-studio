@@ -2352,11 +2352,34 @@ h3 {
   font-weight: 500;
 }
 
+.shop-deliverables-details {
+  display: grid;
+  gap: 4px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.shop-deliverables-details p {
+  margin: 0;
+}
+
 .shop-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 9px;
   margin-top: 30px;
+}
+
+.shop-actions--portrait {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.shop-action-option {
+  min-width: 0;
 }
 
 .shop-action {
@@ -2385,6 +2408,19 @@ h3 {
   color: var(--ink);
 }
 
+.shop-actions--portrait .shop-action-option .shop-action {
+  width: 100%;
+}
+
+.shop-action-price {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
 .shop-action--disabled {
   border-color: var(--hairline);
   color: var(--muted);
@@ -2409,6 +2445,16 @@ h3 {
 
 .shop-note + .shop-note {
   margin-top: 6px;
+}
+
+.shop-memorial-link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.shop-memorial-link:hover {
+  color: var(--muted);
 }
 
 @media (max-width: 860px) {
@@ -2465,6 +2511,10 @@ h3 {
   .shop-actions {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .shop-actions--portrait {
+    grid-template-columns: 1fr;
   }
 
   .shop-action {
