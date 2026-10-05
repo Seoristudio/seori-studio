@@ -1,5 +1,173 @@
 [
   {
+    "id": "ankle-deep",
+    "title": "Ankle Deep",
+    "description": "Ankle Deep works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/ankle-deep/ankle-deep-01.png",
+      "title": "Ankle Deep",
+      "alt": "Ankle Deep cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/ankle-deep/ankle-deep-01.png",
+        "title": "Ankle Deep #1, 2026",
+        "alt": "Ankle Deep artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ankle-deep/ankle-deep-02.png",
+        "title": "Ankle Deep #2, 2026",
+        "alt": "Ankle Deep artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ankle-deep/ankle-deep-03.png",
+        "title": "Ankle Deep #3, 2026",
+        "alt": "Ankle Deep artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ankle-deep/ankle-deep-04.png",
+        "title": "Ankle Deep #4, 2026",
+        "alt": "Ankle Deep artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ankle-deep/ankle-deep-05.jpg",
+        "title": "Ankle Deep #5, 2026",
+        "alt": "Ankle Deep artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/ankle-deep/ankle-deep-06.png",
+        "title": "Ankle Deep #6, 2026",
+        "alt": "Ankle Deep artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "munich-foam-on-the-meadow",
+    "title": "Munich — Foam on the Meadow",
+    "description": "Munich works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/munich-foam-on-the-meadow/munich-01.png",
+      "title": "Munich — Foam on the Meadow",
+      "alt": "Munich — Foam on the Meadow cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/munich-foam-on-the-meadow/munich-01.png",
+        "title": "Munich #1, 2026",
+        "alt": "Munich — Foam on the Meadow artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/munich-foam-on-the-meadow/munich-02.png",
+        "title": "Munich #2, 2026",
+        "alt": "Munich — Foam on the Meadow artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/munich-foam-on-the-meadow/munich-03.jpg",
+        "title": "Munich #3, 2026",
+        "alt": "Munich — Foam on the Meadow artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/munich-foam-on-the-meadow/munich-04.png",
+        "title": "Munich #4, 2026",
+        "alt": "Munich — Foam on the Meadow artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/munich-foam-on-the-meadow/munich-05.jpg",
+        "title": "Munich #5, 2026",
+        "alt": "Munich — Foam on the Meadow artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/munich-foam-on-the-meadow/munich-06.png",
+        "title": "Munich #6, 2026",
+        "alt": "Munich — Foam on the Meadow artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "the-haberdasher-s-shelf",
+    "title": "The Haberdasher's Shelf",
+    "description": "The Haberdasher's Shelf works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/the-haberdasher-s-shelf/the-haberdasher-s-shelf-01.png",
+      "title": "The Haberdasher's Shelf",
+      "alt": "The Haberdasher's Shelf cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/the-haberdasher-s-shelf/the-haberdasher-s-shelf-01.png",
+        "title": "The Haberdasher's Shelf #1, 2026",
+        "alt": "The Haberdasher's Shelf artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-haberdasher-s-shelf/the-haberdasher-s-shelf-02.png",
+        "title": "The Haberdasher's Shelf #2, 2026",
+        "alt": "The Haberdasher's Shelf artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-haberdasher-s-shelf/the-haberdasher-s-shelf-03.png",
+        "title": "The Haberdasher's Shelf #3, 2026",
+        "alt": "The Haberdasher's Shelf artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-haberdasher-s-shelf/the-haberdasher-s-shelf-04.png",
+        "title": "The Haberdasher's Shelf #4, 2026",
+        "alt": "The Haberdasher's Shelf artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-haberdasher-s-shelf/the-haberdasher-s-shelf-05.png",
+        "title": "The Haberdasher's Shelf #5, 2026",
+        "alt": "The Haberdasher's Shelf artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/the-haberdasher-s-shelf/the-haberdasher-s-shelf-06.png",
+        "title": "The Haberdasher's Shelf #6, 2026",
+        "alt": "The Haberdasher's Shelf artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "karlovy-vary-the-valley-drinks-light",
+    "title": "Karlovy Vary — The Valley Drinks Light",
+    "description": "Karlovy Vary works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/karlovy-vary-the-valley-drinks-light/karlovy-vary-01.png",
+      "title": "Karlovy Vary — The Valley Drinks Light",
+      "alt": "Karlovy Vary — The Valley Drinks Light cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/karlovy-vary-the-valley-drinks-light/karlovy-vary-01.png",
+        "title": "Karlovy Vary #1, 2026",
+        "alt": "Karlovy Vary — The Valley Drinks Light artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/karlovy-vary-the-valley-drinks-light/karlovy-vary-02.png",
+        "title": "Karlovy Vary #2, 2026",
+        "alt": "Karlovy Vary — The Valley Drinks Light artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/karlovy-vary-the-valley-drinks-light/karlovy-vary-03.png",
+        "title": "Karlovy Vary #3, 2026",
+        "alt": "Karlovy Vary — The Valley Drinks Light artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/karlovy-vary-the-valley-drinks-light/karlovy-vary-04.png",
+        "title": "Karlovy Vary #4, 2026",
+        "alt": "Karlovy Vary — The Valley Drinks Light artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/karlovy-vary-the-valley-drinks-light/karlovy-vary-05.png",
+        "title": "Karlovy Vary #5, 2026",
+        "alt": "Karlovy Vary — The Valley Drinks Light artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/karlovy-vary-the-valley-drinks-light/karlovy-vary-06.png",
+        "title": "Karlovy Vary #6, 2026",
+        "alt": "Karlovy Vary — The Valley Drinks Light artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "the-bijou",
     "title": "The Bijou",
     "description": "The Bijou works from the Confetti Life project.",
