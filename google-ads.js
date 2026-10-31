@@ -5,30 +5,14 @@
     ["etsy-click", "8Yz9CK_D24sdEOq0_stE"]
   ]);
 
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = window.gtag || function gtag() {
-    window.dataLayer.push(arguments);
-  };
-
-  window.gtag("js", new Date());
-  window.gtag("config", conversionId);
-
   const bindConversionLinks = () => {
     document.querySelectorAll("[data-google-ads-conversion]").forEach((link) => {
       const conversionLabel = conversionLabels.get(link.dataset.googleAdsConversion);
-
-      if (!conversionLabel) {
-        return;
-      }
-
+      if (!conversionLabel || link.dataset.adsConsentBound === "true") return;
+      link.dataset.adsConsentBound = "true";
       link.addEventListener("click", () => {
-        if (typeof window.gtag !== "function") {
-          return;
-        }
-
-        window.gtag("event", "conversion", {
-          send_to: `${conversionId}/${conversionLabel}`
-        });
+        if (window.siteTrackingConsent?.ads !== true || typeof window.gtag !== "function") return;
+        window.gtag("event", "conversion", { send_to: `${conversionId}/${conversionLabel}` });
       });
     });
   };

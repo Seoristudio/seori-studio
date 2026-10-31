@@ -1,0 +1,55 @@
+/* Shared, restrained cookie choices and privacy pages */
+.site-cookie-banner[hidden] { display: none !important; }
+.site-cookie-banner { position: fixed; z-index: 1000; inset: auto auto 16px 16px; width: fit-content; max-width: min(380px, calc(100vw - 32px)); color: #18202a; font-family: "Hanken Grotesk", "Figtree", Arial, sans-serif; }
+.site-cookie-panel { display: grid; grid-template-columns: 1fr; gap: 10px; align-items: start; width: 100%; margin: 0; padding: 14px 15px; border: 1px solid rgba(255,255,255,.68); border-radius: 16px; background: rgba(221,235,255,.32); -webkit-backdrop-filter: blur(18px) saturate(180%); backdrop-filter: blur(18px) saturate(180%); box-shadow: 0 16px 42px rgba(10,24,48,.18), inset 0 1px 0 rgba(255,255,255,.78); }
+.site-cookie-copy h2 { margin: 0 0 4px; color: #171b21; font-size: 14px; font-weight: 650; line-height: 1.25; }
+.site-cookie-copy p { max-width: none; margin: 0; color: #454c55; font-size: 12px; line-height: 1.45; }
+.site-cookie-copy a { text-decoration: underline; text-underline-offset: 3px; }
+.site-cookie-status { display: none; }
+.site-cookie-controls { display: grid; gap: 8px; }
+.site-cookie-actions { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 4px 6px; }
+.site-cookie-button, .site-cookie-text-button { min-height: 32px; padding: 6px 9px; border: 1px solid rgba(24,32,42,.2); border-radius: 9px; background: rgba(255,255,255,.48); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); color: #1a2028; font: inherit; font-size: 11px; font-weight: 600; cursor: pointer; }
+.site-cookie-button:hover, .site-cookie-text-button:hover { border-color: #363e48; }
+.site-cookie-button--primary { border-color: rgba(24,32,42,.82); background: rgba(24,32,42,.88); color: #fff; }
+.site-cookie-button--primary:hover { background: rgba(24,32,42,.96); color: #fff; }
+.site-cookie-button, .site-cookie-text-button { color: #0b3f7a; }
+.site-cookie-button { border-color: rgba(11,63,122,.5); background: rgba(255,255,255,.68); color: #0b3f7a; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+.site-cookie-button:hover { border-color: #0b3f7a; background: rgba(255,255,255,.84); color: #0b3f7a; }
+.site-cookie-text-button { border-color: rgba(11,63,122,.5); background: rgba(11,63,122,.08); color: #0b3f7a; }
+.site-cookie-text-button:hover { border-color: #0b3f7a; }
+.site-cookie-button--primary { border-color: #0b3f7a; background: #0b3f7a; color: #fff; }
+.site-cookie-button--primary:hover { border-color: #062f66; background: #062f66; color: #fff; }
+.site-cookie-settings input { accent-color: #0b3f7a; }
+.site-cookie-banner :focus-visible, .cookie-site-links :focus-visible, .footer-cookie-links :focus-visible { outline-color: #0b3f7a; }
+.site-cookie-text-button { border-color: transparent; background: transparent; text-decoration: underline; text-underline-offset: 3px; }
+.site-cookie-settings { grid-column: 1 / -1; display: grid; gap: 10px; padding-top: 13px; border-top: 1px solid #e1e4e9; }
+.site-cookie-settings[hidden] { display: none !important; }
+.site-cookie-settings label { display: flex; align-items: flex-start; gap: 9px; color: #252c35; font-size: 13px; line-height: 1.45; cursor: pointer; }
+.site-cookie-settings input { width: 17px; height: 17px; margin: 1px 0 0; accent-color: #1e2731; }
+.site-cookie-settings-actions { display: flex; align-items: center; gap: 8px; padding-top: 2px; }
+.site-cookie-banner :focus-visible, .cookie-site-links :focus-visible, .footer-cookie-links :focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
+.footer-cookie-links, .cookie-site-links, .campaign-cookie-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.footer-cookie-links { font-family: "Hanken Grotesk", ui-sans-serif, sans-serif; font-weight: 300; line-height: 1.4; }
+.footer-cookie-links a, .footer-cookie-links button, .cookie-site-links a, .cookie-site-links button, .campaign-cookie-links a, .campaign-cookie-links button { appearance: none; margin: 0; padding: 0; border: 0; border-bottom: 1px solid currentColor; background: transparent; color: inherit; font: inherit; font-size: inherit; text-decoration: none; cursor: pointer; }
+.cookie-site-links { justify-content: center; margin-top: 15px; color: var(--ink-3, #6b7280); font-family: var(--f-disp, Arial, sans-serif); font-size: 12px; }
+.campaign-cookie-links { margin-top: 9px; justify-content: center; font-size: 12px; }
+.privacy-document { width: min(880px, calc(100% - 40px)); margin: clamp(48px,8vw,100px) auto; padding: clamp(24px,5vw,56px); border: 1px solid #e1e4e9; border-radius: 16px; background: #fff; color: #1b222b; box-shadow: 0 12px 42px rgba(15,18,22,.06); font-family: "Hanken Grotesk", "Figtree", Arial, sans-serif; line-height: 1.68; }
+.privacy-document h1 { margin: 0 0 8px; font-size: clamp(28px,4vw,42px); line-height: 1.1; letter-spacing: -.035em; }
+.privacy-document .privacy-updated { margin: 0 0 32px; color: #69717c; font-size: 13px; }
+.privacy-document h2 { margin: 30px 0 8px; font-size: 19px; line-height: 1.3; }
+.privacy-document p, .privacy-document li { color: #3e4650; font-size: 15px; }
+.privacy-document ul { padding-left: 22px; }
+.privacy-document a { text-underline-offset: 3px; }
+.privacy-document .privacy-contact { padding: 16px 18px; border-radius: 10px; background: #f3f5f8; }
+.privacy-document--folio { max-width: 920px; }
+.privacy-document--folio section + section { margin-top: 48px; padding-top: 38px; border-top: 1px solid #e1e4e9; }
+.privacy-document--folio .privacy-language { color: #69717c; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+@media (max-width: 760px) {
+  .site-cookie-banner { inset: auto auto calc(10px + env(safe-area-inset-bottom,0px)) 10px; max-width: min(380px, calc(100vw - 20px)); }
+  .site-cookie-panel { grid-template-columns: 1fr; gap: 9px; padding: 13px 14px; }
+  .site-cookie-actions { justify-content: flex-start; }
+  .site-cookie-button, .site-cookie-text-button { min-height: 32px; }
+  .site-cookie-settings { grid-column: auto; }
+  .footer-cookie-links { flex-basis: 100%; }
+  .privacy-document { width: min(100% - 24px, 880px); margin: 28px auto; padding: 22px 18px; border-radius: 12px; }
+}
