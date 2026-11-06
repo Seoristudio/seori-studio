@@ -1,5 +1,173 @@
 [
   {
+    "id": "a-dose-of-daydream",
+    "title": "A Dose of Daydream",
+    "description": "A Dose of Daydream works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/a-dose-of-daydream/a-dose-of-daydream-01.png",
+      "title": "A Dose of Daydream",
+      "alt": "A Dose of Daydream cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/a-dose-of-daydream/a-dose-of-daydream-01.png",
+        "title": "A Dose of Daydream #1, 2026",
+        "alt": "A Dose of Daydream artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-dose-of-daydream/a-dose-of-daydream-02.png",
+        "title": "A Dose of Daydream #2, 2026",
+        "alt": "A Dose of Daydream artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-dose-of-daydream/a-dose-of-daydream-03.png",
+        "title": "A Dose of Daydream #3, 2026",
+        "alt": "A Dose of Daydream artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-dose-of-daydream/a-dose-of-daydream-04.png",
+        "title": "A Dose of Daydream #4, 2026",
+        "alt": "A Dose of Daydream artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-dose-of-daydream/a-dose-of-daydream-05.jpg",
+        "title": "A Dose of Daydream #5, 2026",
+        "alt": "A Dose of Daydream artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/a-dose-of-daydream/a-dose-of-daydream-06.png",
+        "title": "A Dose of Daydream #6, 2026",
+        "alt": "A Dose of Daydream artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "krakow-ceiling-full-of-stars",
+    "title": "Kraków — Ceiling Full of Stars",
+    "description": "Kraków works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/krakow-ceiling-full-of-stars/krakow-01.png",
+      "title": "Kraków — Ceiling Full of Stars",
+      "alt": "Kraków — Ceiling Full of Stars cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/krakow-ceiling-full-of-stars/krakow-01.png",
+        "title": "Kraków #1, 2026",
+        "alt": "Kraków — Ceiling Full of Stars artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/krakow-ceiling-full-of-stars/krakow-02.jpg",
+        "title": "Kraków #2, 2026",
+        "alt": "Kraków — Ceiling Full of Stars artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/krakow-ceiling-full-of-stars/krakow-03.png",
+        "title": "Kraków #3, 2026",
+        "alt": "Kraków — Ceiling Full of Stars artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/krakow-ceiling-full-of-stars/krakow-04.png",
+        "title": "Kraków #4, 2026",
+        "alt": "Kraków — Ceiling Full of Stars artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/krakow-ceiling-full-of-stars/krakow-05.png",
+        "title": "Kraków #5, 2026",
+        "alt": "Kraków — Ceiling Full of Stars artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/krakow-ceiling-full-of-stars/krakow-06.png",
+        "title": "Kraków #6, 2026",
+        "alt": "Kraków — Ceiling Full of Stars artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "big-apple-small-things",
+    "title": "Big Apple — Small Things",
+    "description": "Big Apple works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/big-apple-small-things/big-apple-01.png",
+      "title": "Big Apple — Small Things",
+      "alt": "Big Apple — Small Things cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/big-apple-small-things/big-apple-01.png",
+        "title": "Big Apple #1, 2026",
+        "alt": "Big Apple — Small Things artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/big-apple-small-things/big-apple-02.png",
+        "title": "Big Apple #2, 2026",
+        "alt": "Big Apple — Small Things artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/big-apple-small-things/big-apple-03.png",
+        "title": "Big Apple #3, 2026",
+        "alt": "Big Apple — Small Things artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/big-apple-small-things/big-apple-04.png",
+        "title": "Big Apple #4, 2026",
+        "alt": "Big Apple — Small Things artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/big-apple-small-things/big-apple-05.png",
+        "title": "Big Apple #5, 2026",
+        "alt": "Big Apple — Small Things artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/big-apple-small-things/big-apple-06.png",
+        "title": "Big Apple #6, 2026",
+        "alt": "Big Apple — Small Things artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
+    "id": "helsinki-silver-herring-linden-gold",
+    "title": "Helsinki — Silver Herring, Linden Gold",
+    "description": "Helsinki works from the Confetti Life project.",
+    "cover": {
+      "path": "assets/images/helsinki-silver-herring-linden-gold/helsinki-01.png",
+      "title": "Helsinki — Silver Herring, Linden Gold",
+      "alt": "Helsinki — Silver Herring, Linden Gold cover artwork from the Confetti Life project."
+    },
+    "images": [
+      {
+        "path": "assets/images/helsinki-silver-herring-linden-gold/helsinki-01.png",
+        "title": "Helsinki #1, 2026",
+        "alt": "Helsinki — Silver Herring, Linden Gold artwork 1 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/helsinki-silver-herring-linden-gold/helsinki-02.png",
+        "title": "Helsinki #2, 2026",
+        "alt": "Helsinki — Silver Herring, Linden Gold artwork 2 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/helsinki-silver-herring-linden-gold/helsinki-03.png",
+        "title": "Helsinki #3, 2026",
+        "alt": "Helsinki — Silver Herring, Linden Gold artwork 3 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/helsinki-silver-herring-linden-gold/helsinki-04.png",
+        "title": "Helsinki #4, 2026",
+        "alt": "Helsinki — Silver Herring, Linden Gold artwork 4 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/helsinki-silver-herring-linden-gold/helsinki-05.png",
+        "title": "Helsinki #5, 2026",
+        "alt": "Helsinki — Silver Herring, Linden Gold artwork 5 from the Confetti Life project."
+      },
+      {
+        "path": "assets/images/helsinki-silver-herring-linden-gold/helsinki-06.png",
+        "title": "Helsinki #6, 2026",
+        "alt": "Helsinki — Silver Herring, Linden Gold artwork 6 from the Confetti Life project."
+      }
+    ]
+  },
+  {
     "id": "ankle-deep",
     "title": "Ankle Deep",
     "description": "Ankle Deep works from the Confetti Life project.",
