@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Semi-automatic weekly Works updater for seori.studio.
 
-Default mode is a dry run. Add --apply to copy assets, generate thumbnails,
-update data/works.json, and bump the Works JSON cache key in script.js.
+Default mode is a dry run. Add --apply to optimize and write full-size assets,
+generate thumbnails, update data/works.json, and bump its cache key.
 """
 
 from __future__ import annotations
@@ -18,6 +18,8 @@ import tempfile
 import unicodedata
 import zipfile
 from pathlib import Path
+
+from image_optimizer import convert_to_webp, webp_encoder_available
 
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
@@ -179,10 +181,15 @@ def build_collection(item: dict, year: int, temp_root: Path, site_root: Path, ap
 
     image_entries = []
     for index, source in enumerate(images, start=1):
-        ext = ".jpg" if source.suffix.lower() == ".jpeg" else source.suffix.lower()
-        original_target = originals_dir / f"{prefix}-{index:02d}{ext}"
+        webp_staging = temp_root / "_webp" / collection_id / f"{prefix}-{index:02d}.webp"
+        convert_to_webp(source, webp_staging)
+        source_size = source.stat().st_size
+        webp_size = webp_staging.stat().st_size
+        use_webp = webp_size < source_size
+        ext = ".webp" if use_webp else (".jpg" if source.suffix.lower() == ".jpeg" else source.suffix.lower())
+        image_target = originals_dir / f"{prefix}-{index:02d}{ext}"
         thumb_target = thumbs_dir / f"{prefix}-{index:02d}.jpg"
-        rel_original = original_target.relative_to(site_root).as_posix()
+        rel_original = image_target.relative_to(site_root).as_posix()
         image_entries.append(
             {
                 "path": rel_original,
@@ -190,13 +197,18 @@ def build_collection(item: dict, year: int, temp_root: Path, site_root: Path, ap
                 "alt": f"{title} artwork {index} from the Confetti Life project.",
             }
         )
-        operations.append(f"  copy {source.name} -> {rel_original}")
+        final_size = webp_size if use_webp else source_size
+        action = "convert" if use_webp else "keep source (WebP would be larger)"
+        operations.append(
+            f"  {action}: {source.name} -> {rel_original} "
+            f"({source_size / 1_000_000:.2f} MB -> {final_size / 1_000_000:.2f} MB)"
+        )
         operations.append(f"  thumb -> {thumb_target.relative_to(site_root).as_posix()}")
         if apply:
-            original_target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(source, original_target)
+            image_target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(webp_staging if use_webp else source, image_target)
             if sips_available():
-                make_thumbnail(original_target, thumb_target)
+                make_thumbnail(source, thumb_target)
             else:
                 operations.append("  warning: sips not found; thumbnail skipped")
 
@@ -257,6 +269,8 @@ def main() -> int:
     args = parse_args()
     site_root = args.site_root.resolve()
     manifest = load_manifest(args.manifest)
+    if not webp_encoder_available():
+        raise SystemExit("FFmpeg with the libwebp encoder is required for weekly image updates.")
     year = int(manifest.get("year", DEFAULT_YEAR))
     reverse = manifest.get("displayOrder", "reverse") == "reverse"
     items = list(manifest["items"])

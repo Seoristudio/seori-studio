@@ -79,7 +79,7 @@ function setupHeroDepth() {
 }
 
 async function fetchWorks() {
-  const response = await fetch("data/works.json?v=20261106-weekly-works-auto", {
+  const response = await fetch("data/works.json?v=20261106-image-optimization", {
     cache: "no-store"
   });
 
@@ -405,22 +405,22 @@ function renderHomePreview(series) {
 
   const images = [
     {
-      path: "assets/images/selected/tubes.png",
+      path: "assets/images/selected/tubes.webp",
       title: "Tubes",
       alt: "Flamingo pool tube floating in sparkling blue water with citrus fruit."
     },
     {
-      path: "assets/images/selected/cans.png",
+      path: "assets/images/selected/cans.webp",
       title: "Cans",
       alt: "Decorative orange can with lemon and pear under a blue starry sky."
     },
     {
-      path: "assets/images/selected/copenhagen-bike.png",
+      path: "assets/images/selected/copenhagen-bike.webp",
       title: "Copenhagen — Pale Blue Summer Rituals",
       alt: "Blonde woman in sunglasses riding a pale blue bicycle with flowers through a colorful Copenhagen street."
     },
     {
-      path: "assets/images/selected/lucca-dachshund.png",
+      path: "assets/images/selected/lucca-dachshund.webp",
       title: "Lucca — The Slow Yellow Afternoon",
       alt: "Sunny Lucca square with a dachshund, fountain, trees, and colorful buildings."
     }

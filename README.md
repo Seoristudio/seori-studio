@@ -67,7 +67,9 @@ python3 tools/update_weekly_works.py tools/weekly-works.json --apply
 
 The updater will:
 
-- copy original images into `assets/images/<collection-id>/`
+- convert full-size ZIP images to WebP (maximum edge 2400px, quality 95, transparency preserved)
+- keep a source file as-is if its WebP conversion would be larger
+- save full-size images in `assets/images/<collection-id>/`
 - create thumbnail JPGs in `assets/images/thumbs/<collection-id>/`
 - prepend the new collections to `data/works.json`
 - bump the Works JSON cache key in `script.js`
@@ -84,6 +86,23 @@ Open `http://localhost:8080`, review the site, then publish only after the
 preview is approved.
 
 The Home selected works and the Works page both read from `data/works.json`.
+
+Image conversion requires FFmpeg with the `libwebp` encoder. The default dry run
+creates temporary conversions to report output paths and sizes; it does not
+change site files. Images smaller than 2400px are not enlarged.
+
+To audit existing large images, run the separate dry-run tool:
+
+```bash
+python3 tools/optimize_existing_images.py
+```
+
+It counts PNG/JPG/JPEG files larger than 2 MB under `assets/images`, excluding
+thumbnails and existing WebP files. Add `--list` to see each path. After review
+and approval, pass `--apply` to convert only files whose WebP output is smaller,
+update site references, and remove the replaced originals from the current site
+tree. GIFs, videos, thumbnails, and files below the size threshold are left
+unchanged.
 
 ## Deploy
 

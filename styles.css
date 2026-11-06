@@ -38,7 +38,7 @@ body.menu-open {
 }
 
 body.about-page-body {
-  background: #f4f7fa;
+  background: #dae6f5;
 }
 
 body.sparkle-cursor-active a,
@@ -523,6 +523,11 @@ h3 {
   width: min(100%, var(--max));
   margin: 0 auto;
   padding: clamp(72px, 10vw, 140px) var(--gutter);
+}
+
+.works-page-body .page-main {
+  width: 100%;
+  max-width: none;
 }
 
 .home-page .preview-section {
