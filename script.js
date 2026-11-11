@@ -405,24 +405,24 @@ function renderHomePreview(series) {
 
   const images = [
     {
-      path: "assets/images/selected/tubes.webp",
-      title: "Tubes",
-      alt: "Flamingo pool tube floating in sparkling blue water with citrus fruit."
+      path: "assets/images/fortune-parlour/fortune-parlour-04.webp",
+      title: "Fortune Parlour",
+      alt: "A starry golden stream rises above a crescent-moon teacup beside a candle."
     },
     {
-      path: "assets/images/selected/cans.webp",
-      title: "Cans",
-      alt: "Decorative orange can with lemon and pear under a blue starry sky."
+      path: "assets/images/the-bijou/the-bijou-01.webp",
+      title: "The Bijou",
+      alt: "A colorful cinema facade beneath a blue night sky."
     },
     {
-      path: "assets/images/selected/copenhagen-bike.webp",
-      title: "Copenhagen — Pale Blue Summer Rituals",
-      alt: "Blonde woman in sunglasses riding a pale blue bicycle with flowers through a colorful Copenhagen street."
+      path: "assets/images/selected/seoul-gwanghwamun-ginkgo-hanbok.webp",
+      title: "Seoul — What I’ve Seen Lately",
+      alt: "People in hanbok walk beneath golden ginkgo leaves near Gwanghwamun in Seoul."
     },
     {
-      path: "assets/images/selected/lucca-dachshund.webp",
-      title: "Lucca — The Slow Yellow Afternoon",
-      alt: "Sunny Lucca square with a dachshund, fountain, trees, and colorful buildings."
+      path: "assets/images/powder-room/powder-room-02.webp",
+      title: "Powder Room",
+      alt: "A blonde model applies red lipstick beneath a glittering blue sky."
     }
   ];
 
