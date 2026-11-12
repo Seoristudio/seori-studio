@@ -210,3 +210,20 @@
   if (saved) applyChoice(saved, false);
   else reveal();
 })();
+
+
+(() => {
+  document.addEventListener("click", event => {
+    const link = event.target.closest && event.target.closest('a[href^="mailto:"]');
+    if (!link || window.siteTrackingConsent?.analytics !== true || typeof window.gtag !== "function") return;
+    window.gtag("event", "email_click", { link_url: link.href, page_path: location.pathname });
+  });
+})();
+
+(() => {
+  if (!location.hostname.endsWith("seori.studio")) return;
+  const script = document.createElement("script");
+  script.defer = true;
+  script.src = "/_vercel/insights/script.js";
+  document.head.appendChild(script);
+})();
